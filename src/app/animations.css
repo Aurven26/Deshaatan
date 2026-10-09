@@ -1,0 +1,196 @@
+/* Enhancement only: without JS, every section remains visible in normal flow. */
+:root {
+  --reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --interaction-duration: 250ms;
+}
+html { scroll-padding-top: 176px; }
+main, footer { overflow-x: clip; }
+[data-reveal] { --reveal-from: translate3d(0, 22px, 0); }
+[data-reveal="fade-in"] { --reveal-from: translate3d(0, 0, 0); }
+[data-reveal="slide-left"] { --reveal-from: translate3d(-24px, 0, 0); }
+[data-reveal="slide-right"] { --reveal-from: translate3d(24px, 0, 0); }
+[data-reveal="zoom-in"] { --reveal-from: scale(0.97); }
+[data-reveal-state="running"] {
+  animation: reveal-enter 650ms var(--reveal-ease) var(--reveal-delay, 0ms) backwards;
+}
+@keyframes reveal-enter {
+  from { opacity: 0; transform: var(--reveal-from); }
+  to { opacity: 1; transform: none; }
+}
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 2px;
+  background: var(--orange);
+  transform: scaleX(var(--scroll-progress, 0));
+  transform-origin: left;
+  z-index: 90;
+  pointer-events: none;
+}
+header { position: sticky; top: 0; z-index: 30; isolation: isolate; }
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #ffffffef;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px #0e204d12;
+  opacity: 0;
+  transition: opacity var(--interaction-duration) ease;
+}
+header[data-scrolled="true"]::before { opacity: 1; }
+header[data-scrolled="true"] .navbar { background: transparent; }
+.deal-deadline { position: relative; overflow: hidden; }
+.deal-deadline::after {
+  content: "";
+  position: absolute;
+  inset: -50% 0;
+  background: linear-gradient(110deg, transparent 30%, #ffffff42 50%, transparent 70%);
+  transform: translateX(-140%);
+  animation: deal-shine 7s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes deal-shine {
+  0%, 72% { transform: translateX(-140%); opacity: 0; }
+  77% { opacity: 1; }
+  94%, 100% { transform: translateX(140%); opacity: 0; }
+}
+.nav-links a { position: relative; }
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--orange);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--interaction-duration) ease;
+}
+.nav-content.open { animation: menu-enter 250ms var(--reveal-ease); }
+@keyframes menu-enter {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: none; }
+}
+:is(.contact-button, .hero-arrow, .category-icon, .package-card, .guide-card,
+  .featured-trip, .testimonial-card, .callback, .primary-button, .whatsapp-button,
+  .footer-social button, .share-button, .rating, .price strong) {
+  transition: transform 250ms ease, box-shadow 250ms ease, opacity 250ms ease,
+    color 250ms ease, background-color 250ms ease, border-color 250ms ease;
+}
+:is(.nav-links a, .login, .currency, .search-button, .duration-tabs button,
+  .category > span:last-child, .footer-menu a, .footer-menu button,
+  .footer-bottom button, .footer-company a, .city-columns button) {
+  transition: color 250ms ease, background-color 250ms ease, transform 250ms ease, border-color 250ms ease;
+}
+:is(.category-icon > img, .package-photo, .guide-image > img, .featured-photo, .view-all > .icon) {
+  transition: transform 250ms ease;
+}
+/* This span occupies exactly the existing photograph's slot. */
+.guide-image { display: block; overflow: hidden; flex-shrink: 0; }
+.guide-image > img { width: 100%; height: 100%; object-fit: cover; transform-origin: center; }
+.share-button { opacity: 1; }
+.callback { position: relative; isolation: isolate; }
+.callback::before {
+  content: "";
+  position: absolute;
+  inset: -1.057px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(165.379deg, #db500e 8.64%, #ff8951 104.72%);
+  opacity: 0;
+  transition: opacity 250ms ease;
+  pointer-events: none;
+}
+.form-fields :is(input, select), .search-input {
+  transition: border-color 250ms ease, box-shadow 250ms ease;
+}
+.form-fields :is(input, select):focus-visible, .search-input:focus-visible {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 4px #2149f31a;
+}
+/* Keyboard equivalents. Focus within a card also reveals its share control. */
+.nav-links a:focus-visible { color: var(--orange); }
+.nav-links a:focus-visible::after { transform: scaleX(1); }
+:is(.login, .currency, .search-button):focus-visible { color: var(--orange); }
+.search-button:focus-visible { border-color: var(--orange); }
+:is(.contact-button, .callback, .primary-button, .whatsapp-button):focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px #0e204d1f;
+}
+.hero-arrow:focus-visible, .footer-social button:focus-visible { transform: scale(1.08); }
+.category:focus-visible .category-icon { transform: translateY(-4px); }
+.category:focus-visible .category-icon > img:first-child { transform: scale(1.1); }
+.category:focus-visible > span:last-child { color: var(--orange); }
+.duration-tabs button:focus-visible { background: var(--blue); color: white; border-color: var(--blue); }
+.view-all:focus-visible > .icon { transform: translateX(3px); }
+:is(.package-card, .featured-trip, .testimonial-card):focus-within,
+.guide-card:focus-visible { transform: translateY(-4px); box-shadow: 0 12px 28px #0e204d1a; }
+.package-card:focus-within .package-photo,
+.featured-trip:focus-within .featured-photo,
+.guide-card:focus-visible .guide-image > img { transform: scale(1.06); }
+:is(.package-card, .featured-trip):focus-within .share-button { opacity: 1; transform: scale(1); }
+.package-card:focus-within .rating { transform: translateY(-1px); }
+.package-card:focus-within .price strong { color: var(--orange); }
+.callback:focus-visible {
+  color: white;
+  border-color: transparent;
+  background: white;
+}
+.callback:focus-visible::before { opacity: 1; }
+:is(.footer-menu a, .footer-menu button, .footer-bottom button, .footer-company a, .city-columns button):focus-visible {
+  color: var(--orange); transform: translateX(3px);
+}
+@media (hover: hover) {
+  .nav-links a:hover { color: var(--orange); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+  :is(.login, .currency, .search-button):hover { color: var(--orange); }
+  .search-button:hover { border-color: var(--orange); }
+  :is(.contact-button, .callback, .primary-button, .whatsapp-button):hover {
+    transform: translateY(-2px); box-shadow: 0 7px 18px #0e204d1f;
+  }
+  .hero-arrow:hover, .footer-social button:hover { transform: scale(1.08); }
+  .category:hover .category-icon { transform: translateY(-4px); }
+  .category:hover .category-icon > img:first-child { transform: scale(1.1); }
+  .category:hover > span:last-child { color: var(--orange); }
+  .duration-tabs button:hover { background: var(--blue); color: white; border-color: var(--blue); }
+  .view-all:hover > .icon { transform: translateX(3px); }
+  :is(.package-card, .featured-trip, .testimonial-card, .guide-card):hover {
+    transform: translateY(-4px); box-shadow: 0 12px 28px #0e204d1a;
+  }
+  .package-card:hover .package-photo,
+  .featured-trip:hover .featured-photo,
+  .guide-card:hover .guide-image > img { transform: scale(1.06); }
+  .share-button { opacity: 0.65; transform: scale(0.94); }
+  :is(.package-card, .featured-trip):hover .share-button,
+  .share-button:focus-visible { opacity: 1; transform: scale(1); }
+  .package-card:hover .rating { transform: translateY(-1px); }
+  .package-card:hover .price strong { color: var(--orange); }
+  .callback:hover {
+    color: white; border-color: transparent;
+    background: white;
+  }
+  .callback:hover::before { opacity: 1; }
+  :is(.footer-menu a, .footer-menu button, .footer-bottom button, .footer-company a, .city-columns button):hover {
+    color: var(--orange); transform: translateX(3px);
+  }
+}
+@media (max-width: 1000px) { html { scroll-padding-top: 170px; } }
+@media (max-width: 600px) { html { scroll-padding-top: 145px; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  [data-reveal] { opacity: 1 !important; }
+  :is([data-reveal], .nav-content.open, .contact-button, .hero-arrow, .category-icon,
+    .category-icon > img:first-child, .package-card, .package-photo, .featured-trip,
+    .featured-photo, .guide-card, .guide-image > img, .testimonial-card, .callback,
+    .primary-button, .whatsapp-button, .footer-social button, .share-button, .rating,
+    .view-all > .icon, .footer-menu a, .footer-menu button, .footer-bottom button,
+    .footer-company a, .city-columns button) { transform: none !important; }
+  .deal-deadline::after, .scroll-progress { display: none; }
+}

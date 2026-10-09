@@ -1,0 +1,229 @@
+/* Figma: desktop 2061:2781, mobile 2094:2162, featured states 2102:10785.
+   The mobile reference includes 90px of phone/browser chrome, excluded here. */
+.mobile-only, .mobile-hero { display: none; }
+.guide-card { border-radius: 12px; box-shadow: 0 4px 12px #141c2914; }
+.testimonial-card > p { line-height: 24px; max-width: 470px; }
+.itinerary .form-actions { grid-template-columns: 1fr 268px; gap: 16px; }
+.itinerary .primary-button, .itinerary .whatsapp-button { min-height: 56px; }
+.itinerary .form-promises { margin-top: 12px; }
+.airport-transfer { position: relative; width: min(1078px, calc(100% - 64px)); min-height: 131px; margin-top: -9px; margin-bottom: 52px; margin-left: max(32px, calc((100% - 1090px) / 2)); padding: 24px 32px 24px 331px; display: flex; align-items: center; gap: 16px; border-radius: 8px; overflow: hidden; background: #e5fb70; color: #000; }
+.airport-transfer h2 { font-size: 24px; line-height: 32px; font-weight: 800; }
+.airport-transfer p { font: 400 16px/24px var(--inter); margin-top: 4px; }
+.airport-transfer button { flex: 0 0 162px; height: 45px; background: white; border: 1px solid #666; border-radius: 8px; font-weight: 700; font-size: 16.048px; }
+.airport-car { position: absolute; left: 25px; top: -8px; width: 279px; height: 139px; object-fit: contain; }
+.airport-decoration { position: absolute; left: -20px; top: 0; width: 107px; height: 81px; object-fit: contain; }
+footer { color: #1b1c1f; }
+.footer-company > p { color: #464749; }
+.share-menu { position: absolute; top: 14px; right: 14px; z-index: 4; }
+.share-menu .share-button { position: relative; inset: auto; display: grid; place-items: center; }
+.share-popover { position: absolute; top: 0; right: calc(100% + 8px); display: flex; gap: 6px; padding: 5px; border: 1px solid #e7ebf0; border-radius: 12px; background: #fff; box-shadow: 0 8px 24px #0e204d24; opacity: 0; visibility: hidden; transform: translateX(8px) scale(.96); transform-origin: right center; pointer-events: none; transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease; }
+.share-popover button { position: relative; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px; color: #425466; }
+.share-popover button:hover, .share-popover button:focus-visible { background: #f2f5ff; color: #2149f3; }
+.share-popover svg { width: 19px; height: 19px; fill: currentColor; }
+.share-popover span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.share-menu.open .share-popover, .share-menu:focus-within .share-popover { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
+@media (hover: hover) { .share-menu:hover .share-popover { opacity: 1; visibility: visible; transform: none; pointer-events: auto; } }
+.featured-trip > .share-menu { top: 21.94px; right: 21.8px; }
+.package-card:hover, .package-card:focus-within { transform: none; box-shadow: none; }
+.testimonial-story { position: relative; height: 100%; }
+.testimonial-story > p { max-width: 470px; margin-bottom: 20px; font-size: 17.951px; line-height: 24px; }
+.testimonial-story > strong { display: block; font-size: 19.945px; font-weight: 600; line-height: 20px; color: #2d3134; }
+.testimonial-story > small { display: block; margin-top: 7px; font-size: 11.967px; line-height: 12px; }
+.testimonial-story > .stars { margin-bottom: 18px; }
+.testimonial-story { animation: testimonial-enter 300ms cubic-bezier(.22,1,.36,1); }
+@keyframes testimonial-enter { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
+.testimonial-controls button { display: grid; place-items: center; border-radius: 999px; touch-action: manipulation; transition: transform 150ms ease, filter 150ms ease; }
+.testimonial-controls button:active { transform: scale(.86); filter: brightness(.88); }
+.testimonial-controls button:focus-visible { transform: scale(1.06); }
+.about-copy > p > .about-toggle { position: static; display: inline; margin-left: .3em; padding: 0; background: none; color: var(--ink); font: 700 15.88px/23.82px var(--inter); text-decoration: underline; text-underline-offset: 3px; }
+.about-copy > p > .about-toggle:hover, .about-copy > p > .about-toggle:focus-visible { color: var(--orange); }
+.share-button { opacity: 1; transform: none; }
+/* The variant changes only the copy position and callback visibility. */
+.featured-trip:hover, .featured-trip:focus-within { transform: none; box-shadow: none; }
+.featured-trip:hover .featured-photo, .featured-trip:focus-within .featured-photo { transform: none; }
+.featured-copy { bottom: 29px; height: 117.851px; transition: bottom 280ms cubic-bezier(.22,1,.36,1); }
+.featured-copy small { font-family: var(--jakarta); }
+.featured-callback { position: absolute; z-index: 2; left: 25px; bottom: 28.2px; width: 181px; height: 53.792px; border: 1.06px solid white; border-radius: 8.478px; background: #0003; color: white; font-size: 14.837px; font-weight: 700; opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity 280ms ease, transform 280ms cubic-bezier(.22,1,.36,1), background-color 220ms ease, color 220ms ease, box-shadow 220ms ease; }
+.featured-trip:focus-within .featured-copy { bottom: 99px; }
+.featured-trip:focus-within .featured-callback { opacity: 1; pointer-events: auto; transform: translateY(0); }
+@media (hover: hover) {
+  .featured-trip:hover .featured-copy { bottom: 99px; }
+  .featured-trip:hover .featured-callback { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .featured-callback:hover { background-color: #fff; color: #1c2b38; box-shadow: 0 6px 18px #0003; }
+}
+@media (min-width: 1001px) { .hero { height: 328.73px; } .hero-panel { height: 100%; } .hero-arrow { top: calc(50% - 19.0875px); } }
+/* Keep the original banner aspect ratio as its width grows on wide desktops. */
+@media (min-width: 1513px) { .hero { height: auto; aspect-ratio: 4.599535; } }
+@media (prefers-reduced-motion: reduce) { .featured-copy, .featured-callback { transition: none; } }
+@media (min-width: 601px) and (max-width: 1000px) {
+  .hero, .hero-panel { height: 26vw; }
+  .airport-transfer { padding-left: 220px; }
+  .airport-car { width: 180px; }
+  .airport-transfer h2 { font-size: 19px; }
+  .airport-transfer p { font-size: 13px; }
+  .airport-transfer button { flex-basis: 105px; }
+}
+@media (max-width: 600px) {
+  html { scroll-padding-top: 80px; }
+  .desktop-only, .icon.desktop-only, .deal-bar, .hero, .airport-transfer { display: none; }
+  .mobile-only, .icon.mobile-only { display: block; }
+  .content { width: calc(100% - 48px); }
+  .navbar { height: 66px; margin: 0; padding: 0 16px 0 24.72px; align-items: center; background: white; }
+  .brand { height: 34.548px; }
+  .mobile-toggle { width: 44px; height: 44px; }
+  .mobile-toggle > img { transform: scaleX(-1); }
+  .nav-content { top: 65px; }
+  .mobile-hero { display: block; position: relative; height: 222.384px; margin-top: 12px; overflow: hidden; touch-action: pan-y; }
+  .mobile-hero-panel { position: absolute; left: calc(50% - 166.57px); width: 333.14px; height: 222.384px; border-radius: 17.442px; overflow: hidden; background: #fde2c0; }
+  .mobile-hero-panel.previous { transform: translateX(-341.86px); }
+  .mobile-hero-panel.next { transform: translateX(341.86px); }
+  .mobile-hero-panel > img { width: 100%; height: 100%; object-fit: cover; }
+  .mobile-hero-panel.india-art > img { position: absolute; width: 102.23%; height: 101.36%; left: -1.8%; top: -22.9%; }
+  .mobile-hero-copy { position: absolute; left: 19.07px; top: 158px; color: #1a1a1a; }
+  .mobile-hero-copy strong { font-size: 18.984px; line-height: 31.64px; font-weight: 800; }
+  .mobile-hero-copy p { font-size: 10.153px; line-height: 16.922px; font-weight: 500; margin-top: -1.84px; }
+  .mobile-hero-controls { position: absolute; right: calc(50% - 153px); bottom: 15.324px; display: flex; gap: 3.16px; }
+  .mobile-hero-controls button { background: #0008; color: white; border-radius: 99px; height: 20.54px; padding: 0 7.9px; font: 400 8.5px var(--inter); }
+  .mobile-hero-controls button:first-child { width: 20.54px; padding: 0; font-size: 11px; }
+  .mobile-hero-controls span { font-size: 12px; margin-left: 3px; }
+  .mobile-hero-previous { position: absolute; opacity: 0; left: 24px; top: 90px; background: white; border-radius: 8px; width: 30px; height: 36px; }
+  .mobile-hero-previous:focus-visible { opacity: 1; }
+  .categories-wrap { height: 124.616px; }
+  .categories { width: 100%; padding: 24.616px 9.72px 20px; gap: 9.303px; overflow-x: auto; scrollbar-width: none; }
+  .category { flex: 0 0 69.697px; width: 69.697px; gap: 7.205px; font-size: 11.5px; line-height: 14.409px; }
+  .category-icon { width: 50.433px; height: 50.433px; border-radius: 18.012px; }
+  .category-divider { display: none; }
+  .popular { width: 100%; padding: 0 0 34.84px; height: 566px; border-bottom: 10px solid #f2f5f7; }
+  .section-heading { margin-left: 22.72px; padding: 0; height: 75.221px; min-height: 0; display: flex; align-items: flex-start; flex-direction: column; flex-wrap: nowrap; gap: 12px; }
+  .popular .section-heading { padding-top: 0; }
+  .section-heading h1, .section-heading h2 { font-size: 18px; line-height: 30px; letter-spacing: -.18px; font-weight: 700; white-space: nowrap; max-width: none; }
+  .section-heading .duration-tabs { order: initial; flex-basis: auto; margin-top: 0; }
+  .duration-tabs { gap: 9px; width: calc(100vw - 22.72px); flex-shrink: 0; overflow-x: auto; scrollbar-width: none; }
+  .duration-tabs button, .duration-tabs button:last-child { flex: 0 0 65.464px; width: 65.464px; height: 33.221px; font-size: 10.985px; line-height: 16.478px; font-weight: 800; border-width: .816px; }
+  .view-all { display: none; }
+  .packages-grid { display: flex; gap: 28.46px; margin-top: 23.779px; padding: 0 24.72px 8px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; scroll-padding-left: 24.72px; }
+  .package-card { flex: 0 0 274.27px; width: 274.27px; gap: 0; scroll-snap-align: start; }
+  .package-image { aspect-ratio: 1; width: 274.27px; height: 274.27px; border-radius: 8.625px; }
+  .package-image .share-button { right: 11.48px; top: 11.43px; padding: 6.474px; border-radius: 5.179px; }
+  .package-image > .share-menu { top: 11.43px; right: 11.48px; }
+  .package-image .share-button .icon { width: 15.536px; height: 15.536px; }
+  .photo-dots { width: 56.636px; height: 7.999px; bottom: 12.45px; right: 13.36px; }
+  .trip-meta { margin-top: 13.84px; gap: 10.35px; height: 21.7px; font-size: 12.937px; }
+  .rating { width: 47.437px; height: 21.7px; border-radius: 2.523px; font-size: 10.093px; }
+  .rating small { font-size: 8.579px; }
+  .trip-title { margin-top: 13.83px; min-height: 40px; font-size: 14px; line-height: 20px; }
+  .price-row { margin-top: 14.53px; height: 43.99px; gap: 0; align-items: center; flex-wrap: nowrap; }
+  .price del { font-size: 12.207px; line-height: 14.8px; }
+  .price > div { margin-top: 3.96px; gap: 3px; }
+  .price strong { font-size: 20.7px; line-height: 25.2px; }
+  .price span { font-size: 8.138px; }
+  .callback { flex: 0 0 147.3px; width: 147.3px; height: 43.776px; font-size: 12.07px; border: .863px solid #ff4f00; color: #ff4f00; }
+  .guides { width: 100%; height: 354px; padding: 24px 0 34px; }
+  .guides .section-heading { height: 28px; margin-left: 23.72px; padding: 0; }
+  .guides .section-heading h2 { font-size: 20px; line-height: 28px; letter-spacing: 0; }
+  .guides-grid { display: flex; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; scroll-padding-left: 23.72px; margin-top: 15px; gap: 12px; padding: 0 23.72px 10px; }
+  .guide-card { flex: 0 0 224px; width: 224px; height: 253px; min-height: 0; padding: 9.017px; border: .751px solid #edf2f7; border-radius: 12.023px; box-shadow: 0 3.006px 6.011px #00000008; scroll-snap-align: start; }
+  .guide-image { width: 203px; height: 124px; border-radius: 9.017px; }
+  .guide-copy { padding: 14.5px 4.508px 4.508px; }
+  .guide-copy h3 { font-size: 12.5px; line-height: 15.78px; margin-bottom: 10px; }
+  .guide-copy p { width: 194px; font-size: 10.874px; line-height: 15.948px; margin-bottom: 9px; text-align: justify; }
+  .guide-copy > span { font-size: 11px; line-height: 13.676px; gap: 4.508px; }
+  .guide-copy b { font-size: 13.318px; }
+  .religious { height: 570px; padding: 0; }
+  .religious-content { width: 100%; padding-top: 26px; }
+  .religious .section-heading { gap: 12px; }
+  .religious .packages-grid { margin-top: 23.029px; padding-left: 22.72px; gap: 29.83px; scroll-padding-left: 22.72px; }
+  .featured-trip { flex: 0 0 274.27px; width: 274.27px; height: 419.9px; min-height: 0; border-radius: 12px; scroll-snap-align: start; box-shadow: 0 8px 10px #1f0d292e; }
+  .featured-trip .share-button { top: 17.8px; right: 17.8px; padding: 6.436px; border-radius: 5.149px; }
+  .featured-trip > .share-menu { top: 17.8px; right: 17.8px; }
+  .featured-trip .share-button > img { width: 15.45px; height: 15.45px; }
+  .featured-copy { left: 20.23px; bottom: 23.58px; height: 95.348px; }
+  .featured-copy strong { font-size: 23.92px; line-height: 30px; margin-bottom: 6.38px; }
+  .featured-copy > span { font-size: 19.929px; line-height: 25px; }
+  .featured-copy small { font-size: 9.71px; margin-top: 6px; border-radius: 6.472px; padding: 6.472px 12.945px; height: 28px; }
+  .featured-callback { left: 20.23px; bottom: 22px; width: 147px; height: 43.5px; font-size: 12.07px; }
+  .featured-trip:focus-within .featured-copy { bottom: 80px; }
+  .testimonials { height: 382px; padding: 40px 0 48px; display: block; }
+  .testimonial-heading { padding: 0; }
+  .testimonial-heading > p { font: 500 9.189px/12px var(--jakarta); margin-bottom: 4.25px; }
+  .testimonial-heading h2 { font-size: 20px; line-height: 28px; letter-spacing: -.2px; color: #0e204d; }
+  .testimonial-heading h2 br { display: none; }
+  .testimonial-heading h2 br::after { content: " "; }
+  .testimonial-card { margin-top: 48.75px; height: 201px; min-height: 0; border: .731px solid #ececec; border-radius: 15px; padding: 34.32px 17.54px 0; }
+  .testimonial-story > p { font-size: 12px; line-height: 19px; margin: 0 0 3.68px; max-width: 288.028px; }
+  .avatar { width: 51.526px; height: 51.526px; left: 17.74px; top: -28.73px; }
+  .stars { width: 65.34px; height: 10.352px; margin-bottom: 10.348px; }
+  .testimonial-story > strong { font-size: 12.179px; font-weight: 500; line-height: 12.179px; }
+  .testimonial-story > small { font-size: 9.449px; line-height: 9.449px; margin-top: 4.871px; }
+  .testimonial-story > .stars { margin-bottom: 10.348px; }
+  .testimonial-controls { right: 18.16px; bottom: 13.4px; gap: 7.617px; }
+  .testimonial-controls img { width: 32.893px; height: 32.893px; }
+  .itinerary { height: 723px; padding: 26.66px 0 33px; background: linear-gradient(117.4145deg,#1d0a28,#350f45 50%,#4d1864); }
+  .itinerary > .content { width: calc(100% - 48px); }
+  .itinerary h2 { font-size: 25px; line-height: 30.384px; letter-spacing: -.3517px; max-width: 325px; }
+  .itinerary > .content > p { font-size: 12.5px; line-height: 16px; margin-top: 16.572px; white-space: nowrap; }
+  .itinerary-form { margin-top: 25px; height: 545px; padding: 14px 16px 18px; border-radius: 20px; box-shadow: 0 17.442px 39.244px #00000038; }
+  .itinerary .form-fields { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .itinerary .form-fields > label { font-size: 10px; line-height: 13.43px; height: 64px; }
+  .itinerary .form-fields input, .itinerary .form-fields select { height: 42px; margin-top: 8.57px; border-radius: 8.72px; font-size: 12px; padding-inline: 12px; }
+  .itinerary .phone-prefix { display: none; }
+  .itinerary .form-actions { display: grid; grid-template-columns: 1fr; gap: 17px; margin-top: 12px; }
+  .itinerary .primary-button, .itinerary .whatsapp-button { min-height: 52px; height: 52px; border-radius: 10.884px; box-shadow: none; font-size: 13px; font-weight: 700; }
+  .itinerary .primary-button { background: linear-gradient(-66.259deg,#db500e 8.64%,#ff8951 104.72%); }
+  .itinerary .whatsapp-button { font-size: 10.5px; gap: 6.43px; background: linear-gradient(103.027deg,#25d366 12.64%,#136d35 130.29%); }
+  .itinerary .whatsapp-button > img { width: 18.705px; height: 18.705px; mask-image: none; }
+  .itinerary .form-promises { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 16px 20px; margin-top: 21px; margin-inline: -12px; padding: 11.3px 12px 0; font-size: 10.465px; line-height: 14.65px; }
+  .form-promises span { white-space: nowrap; }
+  .about { min-height: 0; height: auto; padding: 35px 0 0; }
+  .about h2 { font-size: 20px; line-height: 28px; }
+  .about-copy { margin-top: 9px; }
+  .about-copy > p { font: 400 15px/23.5px var(--jakarta); }
+  .about-copy:not(.expanded) > p { max-height: none; overflow: visible; }
+  .about-copy br::after { content: " "; }
+  .about-copy > p > .about-toggle { font: 700 15px/23.5px var(--jakarta); }
+  .about .city-links { display: none; }
+  .mobile-city-links { width: calc(100% - 48px); margin: 0 auto 18px; }
+  details > summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary::after { content: ""; width: 10px; height: 10px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); margin: 0 9px 6px 12px; flex-shrink: 0; }
+  details[open] > summary::after { transform: rotate(225deg); margin-bottom: 0; }
+  details > div { display: flex; flex-direction: column; align-items: flex-start; gap: 15px; padding: 10px 0 20px; }
+  details summary:focus-visible { outline: 3px solid #2149f3; outline-offset: 3px; }
+  .mobile-city-links summary { min-height: 76px; font-size: 16px; line-height: 24.88px; font-weight: 600; white-space: nowrap; }
+  .mobile-city-links details:first-child { border-bottom: 1px solid #d8dce2; }
+  .mobile-city-links details button { text-align: left; font-size: 13px; }
+  footer { color: #1b1c1f; }
+  .footer-main { display: block; width: calc(100% - 48px); padding: 35px 0 10px; min-height: 664px; }
+  .footer-company { max-width: none; }
+  .footer-company > a > img { width: 100px; height: 42.651px; }
+  .footer-company > p { font-size: 14.5px; line-height: 24px; margin-top: 24px; color: #1b1c1fcc; }
+  .footer-company > p > a { font-size: inherit; color: inherit; font-weight: 500; }
+  .footer-company > p > a > .mobile-only { display: inline; }
+  .footer-company address { margin-top: 15px; gap: 18.972px; }
+  .footer-company address > a, .footer-company address > span { font-size: 12.6px; line-height: 18px; gap: 5.692px; color: #1b1c1f; }
+  .footer-company address .icon { width: 19px; height: 19px; }
+  .footer-menu { display: none; }
+  .mobile-footer-menu { margin-top: 35px; }
+  .mobile-footer-menu details { border-bottom: 1px solid #d8dcdf; }
+  .mobile-footer-menu summary { height: 50.74px; font-size: 14px; font-weight: 600; letter-spacing: -.14px; color: #323637; }
+  .mobile-footer-menu summary::after { width: 8px; height: 8px; border-width: 1.5px; margin-right: 14px; }
+  .mobile-footer-menu details button { font-size: 13px; }
+  .footer-social { padding-top: 18px; }
+  .footer-social h3 { text-transform: capitalize; font-size: 14px; font-weight: 600; line-height: 21px; margin-bottom: 13px; }
+  .footer-social > div { gap: 12px; }
+  .footer-social button { width: 40px; height: 40px; padding: 8px; }
+  .footer-social img { width: 24px; height: 24px; }
+  .mobile-footer-bottom { margin: 0 24px; padding: 24px 0; min-height: 132px; border-top: 1px solid white; font: 400 14px/21px Helvetica,Arial,sans-serif; color: #323637; }
+  .mobile-footer-bottom > p { margin-bottom: 16px; white-space: nowrap; }
+  .mobile-footer-bottom > div { display: flex; flex-wrap: wrap; gap: 0; }
+  .mobile-footer-bottom button + button::before { content: "•"; margin: 0 8px; }
+  .mobile-footer-bottom button:last-child { flex-basis: 100%; text-align: left; }
+}
+@media (max-width: 359px) {
+  .mobile-hero-panel { width: calc(100% - 32px); left: 16px; }
+  .section-heading h1, .section-heading h2, .guides .section-heading h2 { font-size: 17px; }
+  .mobile-city-links summary { font-size: 13px; }
+  .itinerary > .content > p { white-space: normal; }
+  .form-promises span { white-space: normal; }
+  .mobile-footer-bottom > p { white-space: normal; }
+}

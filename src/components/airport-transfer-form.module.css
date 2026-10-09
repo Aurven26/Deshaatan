@@ -1,0 +1,21 @@
+.fieldset { border:0; padding:0; margin:0; min-width:0; }
+.fields { gap:20px 14px; }
+.travellers > label { display:block; font-size:12px; font-weight:700; line-height:15.4px; color:#475569; }
+.travellerControl { margin-top:9px; min-height:48px; border:0; background:transparent; }
+.travellerControl > button { min-height:48px; height:48px; border:1px solid #cbd5e1; border-radius:10px; background:#f8fafc; padding:0 14px; font-size:14px; font-weight:400; }
+.travellerControl > button[data-empty=true] { color:#aaa; }
+.travellerControl input[type=hidden] { display:none; }
+.travellerControl > [role=dialog] { width:min(280px,100%); font-weight:400; }
+.message { grid-column:1 / -1; }
+.message > span { font-weight:400; }
+.message textarea { display:block; width:100%; min-height:92px; margin-top:9px; padding:12px 14px; border:1px solid #cbd5e1; border-radius:10px; background:#f8fafc; color:#0f172a; font:400 14px/22px var(--jakarta); resize:vertical; }
+.message textarea::placeholder { color:#94a3b8; }
+.message textarea:focus-visible { outline:2px solid #64748b; outline-offset:2px; }
+.form > button:disabled { opacity:.7; cursor:wait; }
+.result { margin-top:16px; padding:14px 16px; border-radius:10px; font-size:14px; line-height:22px; }
+.success { background:#edf9f1; border:1px solid #bbdfc6; color:#166534; }
+.error { background:#fff1f1; border:1px solid #f4c6c6; color:#991b1b; }
+@media (max-width:600px) {
+  .fields { grid-template-columns:minmax(0,1fr); gap:18px; }
+  .fields input,.fields select,.message textarea,.travellerControl > button { font-size:16px; }
+}

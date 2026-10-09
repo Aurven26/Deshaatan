@@ -1,0 +1,6391 @@
+{
+  "terms-and-conditions": [
+    {
+      "type": "h1",
+      "space": 0,
+      "content": [
+        {
+          "text": "TERMS AND CONDITIONS",
+          "bold": true
+        }
+      ],
+      "size": 28,
+      "line": 36
+    },
+    {
+      "type": "updated",
+      "space": 6,
+      "content": [
+        {
+          "text": "Last Updated: 5 October 2026"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Welcome to Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "These Terms and Conditions (\"Terms\") govern your access to and use of www.deshaatan.com, its mobile interfaces, applications, communication channels, planning tools and related services (collectively, the \"Platform\")."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The Platform is owned and operated by Aurven Travel Commerce India Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301 (\"Deshaatan\", \"we\", \"us\" or \"our\")."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "By accessing the Platform, creating an account, using our planning tools, submitting an enquiry, consulting a Deshaatan specialist, requesting a quotation, making a payment or booking any travel service through Deshaatan, you acknowledge that you have read, understood and agreed to these Terms."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If you do not agree with these Terms, you should not use the Platform or make a booking through Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "1. ABOUT DESHAATAN",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan is a travel discovery, planning and booking platform that helps travellers discover, understand, plan and book journeys. Deshaatan may provide:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "Deshaatan Guides:",
+            "bold": true
+          },
+          {
+            "text": " destination guides, travel information and editorial content;"
+          }
+        ],
+        [
+          {
+            "text": "Deshaatan Itineraries:",
+            "bold": true
+          },
+          {
+            "text": " suggested day-wise itineraries, cost guides and destination comparisons;"
+          }
+        ],
+        [
+          {
+            "text": "Deshaatan Holidays:",
+            "bold": true
+          },
+          {
+            "text": " curated and customizable tour packages;"
+          }
+        ],
+        [
+          {
+            "text": "Deshaatan Experts:",
+            "bold": true
+          },
+          {
+            "text": " consultation with destination specialists;"
+          }
+        ],
+        [
+          {
+            "text": "Planning tools:",
+            "bold": true
+          },
+          {
+            "text": " trip cost calculators, itinerary builders, recommendation tools and AI-assisted travel planning;"
+          }
+        ],
+        [
+          {
+            "text": "accommodation, transfers, transportation, local sightseeing, activities, experiences and local guides;"
+          }
+        ],
+        [
+          {
+            "text": "third-party travel services; and"
+          }
+        ],
+        [
+          {
+            "text": "other travel-related products or services made available from time to time."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Certain services may be designed, packaged or coordinated by Deshaatan, while other services may be delivered independently by third-party travel service providers."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "2. OUR COMMITMENTS TO TRAVELLERS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan believes travellers should understand what they are buying before they book it. Accordingly, we commit to the following:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "Honest recommendations:",
+            "bold": true
+          },
+          {
+            "text": " We will not recommend a destination, package or service as suitable for you merely because it earns us a higher margin."
+          }
+        ],
+        [
+          {
+            "text": "Clear pricing:",
+            "bold": true
+          },
+          {
+            "text": " Before you make any payment, your quotation or checkout page will show the total price, what it includes, what it excludes, and any charges payable directly at the destination. We will not add undisclosed mandatory charges at a later stage."
+          }
+        ],
+        [
+          {
+            "text": "Clear policies:",
+            "bold": true
+          },
+          {
+            "text": " Cancellation, amendment and refund terms applicable to your Booking will be shown to you before payment."
+          }
+        ],
+        [
+          {
+            "text": "Realistic expectations:",
+            "bold": true
+          },
+          {
+            "text": " We will try to communicate realistic information about hotels, weather, travel times, road conditions and activities, including limitations we are aware of."
+          }
+        ],
+        [
+          {
+            "text": "Genuine reviews:",
+            "bold": true
+          },
+          {
+            "text": " Reviews and testimonials published by Deshaatan will come from real travellers."
+          }
+        ],
+        [
+          {
+            "text": "Accountability:",
+            "bold": true
+          },
+          {
+            "text": " Your Booking Confirmation will identify your Deshaatan point of contact and how to reach us before and during your trip."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "3. DEFINITIONS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "For these Terms:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "\"User\", \"Traveller\", \"You\" or \"Your\"",
+            "bold": true
+          },
+          {
+            "text": " means any person who accesses the Platform, uses its tools, submits an enquiry or makes a booking."
+          }
+        ],
+        [
+          {
+            "text": "\"Booking\"",
+            "bold": true
+          },
+          {
+            "text": " means a confirmed purchase, reservation or travel arrangement made through Deshaatan."
+          }
+        ],
+        [
+          {
+            "text": "\"Package\"",
+            "bold": true
+          },
+          {
+            "text": " means a combination of travel services that may include accommodation, transportation, sightseeing, activities, guides, meals or other services."
+          }
+        ],
+        [
+          {
+            "text": "\"Service Provider\" or \"Travel Partner\"",
+            "bold": true
+          },
+          {
+            "text": " means any independent hotel, homestay, transport provider, tour operator, activity provider, guide, destination management company or other third party involved in delivering a travel service."
+          }
+        ],
+        [
+          {
+            "text": "\"Specialist\"",
+            "bold": true
+          },
+          {
+            "text": " means a Deshaatan team member who advises travellers on destinations, itineraries and bookings."
+          }
+        ],
+        [
+          {
+            "text": "\"Planning Tools\"",
+            "bold": true
+          },
+          {
+            "text": " means calculators, itinerary builders, comparison tools, recommendation engines, AI-assisted assistants and similar features on the Platform."
+          }
+        ],
+        [
+          {
+            "text": "\"Quotation\"",
+            "bold": true
+          },
+          {
+            "text": " means the itinerary, price proposal or booking offer provided by Deshaatan setting out the proposed services, inclusions, exclusions, payment requirements and applicable conditions."
+          }
+        ],
+        [
+          {
+            "text": "\"Booking Confirmation\"",
+            "bold": true
+          },
+          {
+            "text": " means the document, email, voucher, invoice or other confirmation issued after a booking is accepted."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "4. ELIGIBILITY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "You must be at least 18 years old and legally capable of entering into a binding contract to make a booking through Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A person making a booking on behalf of other travellers confirms that:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "they have authority to make the booking;"
+          }
+        ],
+        [
+          {
+            "text": "all information provided for the travellers is accurate;"
+          }
+        ],
+        [
+          {
+            "text": "the travellers have been informed about relevant booking conditions; and"
+          }
+        ],
+        [
+          {
+            "text": "they accept responsibility for payments and communications relating to the booking."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Bookings may include children or minors when made by a parent, legal guardian or other authorised adult."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "5. DESHAATAN'S ROLE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan's role may vary depending on the product or service selected."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "5.1 Travel Information and Discovery",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Destination guides, articles, suggested itineraries, cost guides, estimated budgets, travel tips, photographs, maps and other informational content are provided to help travellers make informed planning decisions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travel conditions can change. Users should independently verify critical information such as operating hours, entry requirements, road conditions, permits, weather conditions and local regulations before travelling."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan's guides are written to help travellers make decisions. Where content is sponsored, created in partnership with a Travel Partner, or contains affiliate links, this will be clearly disclosed on the relevant page."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "5.2 Third-Party Services",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "For certain accommodation, transport, activities or other independently supplied services, Deshaatan may act as an intermediary or booking facilitator between the User and the relevant Service Provider."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The actual service is provided by the applicable Service Provider and may also be subject to that provider's own terms and policies."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "5.3 Deshaatan Packages",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where Deshaatan creates or coordinates a complete travel package, we arrange several services as part of a combined itinerary. Individual components may nevertheless be delivered by independent hotels, drivers, guides, activity companies and other Travel Partners."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "When selecting and working with Travel Partners, Deshaatan considers factors such as service quality, reliability, safety practices, customer feedback and problem-resolution history, based on information reasonably available to us. Selection of a Travel Partner does not constitute a guarantee that every aspect of an independently delivered service will be free from disruption, error or other issues outside Deshaatan's reasonable control."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "5.4 Deshaatan Destination Specialists",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travellers may consult Deshaatan destination specialists for advice on destinations, itineraries, accommodation and travel planning. Our specialists provide recommendations in good faith based on their knowledge and the information you share."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Final travel decisions remain yours. Advice does not become a binding commitment unless it is included in your confirmed quotation or Booking Confirmation."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "5.5 Planning Tools and AI-Assisted Features",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan may offer Planning Tools such as trip cost calculators, itinerary builders, destination comparisons, recommendation engines and AI-assisted travel planning."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Outputs from these tools are estimates and suggestions intended to support planning. They are not quotations or confirmed bookings. AI-generated suggestions may occasionally be incomplete or inaccurate, and you may request a review by a Deshaatan specialist before booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "6. QUOTATIONS AND BOOKING CONTRACT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "A quotation may include travel dates, number of travellers, proposed itinerary, accommodation, transportation, activities, meals, inclusions, exclusions, taxes, payment schedule, cancellation terms and other booking-specific conditions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A quotation is subject to availability until the required payment has been received and the booking has been confirmed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Unless specifically stated otherwise, submission of an enquiry or quotation request does not guarantee availability or pricing."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "After payment and confirmation, the final confirmed quotation/itinerary, Booking Confirmation and these Terms together form the agreement applicable to the Booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Any item not expressly included in the confirmed itinerary or quotation should be treated as excluded."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "7. PRICES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Prices displayed on the Platform may be per person, per room, per vehicle, per activity, per package, or based on another unit expressly displayed with the product."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Indicative prices, \"starting from\" prices and estimated package costs may change depending on travel dates, availability, group size, accommodation category, transportation, seasonal demand, taxes or supplier rates."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Before payment, your quotation or checkout page will show the total price payable, including applicable taxes, along with a clear statement of inclusions, exclusions and any amounts payable directly at the destination."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The final price will be the price stated in the confirmed quotation or checkout page, subject to any clearly disclosed amendments."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "8. TAXES AND ADDITIONAL CHARGES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Applicable GST, statutory taxes, destination taxes, entry fees, permit fees, tourism fees or other charges may apply."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Certain charges may be payable directly by the traveller to hotels, local authorities or other service providers. Where known to us, such charges will be disclosed in your quotation."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Charges not expressly included in your Booking Confirmation are not included in the package price."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "9. PAYMENTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Bookings may require full advance payment, or payment according to a specified instalment schedule."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A booking will not be considered fully confirmed until the required payment has been received and confirmation has been issued."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Payments may be processed through third-party payment gateways, banks or financial service providers."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Failure to make a required payment within the specified time may result in cancellation or loss of reserved inventory. Any resulting cancellation charges or supplier penalties, as disclosed in your booking conditions, may be payable by the User."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "10. CHANGES IN PRICE BEFORE CONFIRMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel inventory is dynamic. Hotel tariffs, transportation charges, activity prices, taxes and other supplier rates may change before a booking is confirmed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan reserves the right to revise an unconfirmed quotation if supplier prices or availability change. Any revised quotation will be shared with you before payment is requested."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Once a Booking has been confirmed, any changes will be handled according to the confirmed booking conditions and applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "11. CANCELLATIONS BY THE TRAVELLER",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Cancellation conditions may vary between packages and Service Providers. The cancellation policy stated in your quotation or Booking Confirmation will apply to your Booking and will be shown to you before payment."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Cancellation charges may include amounts retained by hotels, transport providers, activity operators, other suppliers, payment service providers, and Deshaatan for work already undertaken or non-recoverable costs, where applicable and disclosed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Certain bookings may be fully or partially non-refundable. Such bookings will be clearly identified before payment."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "12. REFUNDS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where a refund is due under the applicable cancellation or booking conditions, Deshaatan will process or facilitate the refund within a reasonable period and in accordance with applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where the refundable amount is held by Deshaatan, we will initiate the applicable refund after the cancellation and refundable amount have been confirmed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where the refundable amount is dependent on a Travel Partner, Deshaatan will make reasonable efforts to obtain the amount from the relevant Travel Partner and will initiate the applicable refund after the corresponding amount has been received or otherwise becomes payable by Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will keep you reasonably informed where a supplier-dependent refund is materially delayed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "After a refund has been initiated, additional processing time may be required by banks, card networks, UPI providers, payment gateways or other financial institutions. Such external processing time is outside Deshaatan's direct control."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Non-refundable supplier charges, cancellation charges, payment-processing charges, taxes or other amounts may be deducted only where permitted by applicable law and disclosed in the applicable booking or cancellation conditions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where a specific refund timeline is stated in your confirmed quotation, Booking Confirmation or cancellation policy, that timeline will apply subject to applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "13. BOOKING MODIFICATIONS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Requests to modify travel dates, traveller names, number of travellers, accommodation, vehicles, destinations, activities or itinerary are subject to availability."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Additional charges, supplier penalties and differences in prevailing rates may apply and will be communicated before the modification is confirmed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A requested modification is not confirmed until Deshaatan provides written confirmation."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "14. CANCELLATIONS OR CHANGES BY DESHAATAN OR TRAVEL PARTNERS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel arrangements may occasionally need to be changed because of circumstances including supplier unavailability, hotel overbooking, operational issues, road closures, weather, safety concerns, government restrictions, natural disasters or other circumstances beyond reasonable control."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where this happens, Deshaatan will inform you as soon as reasonably possible and may offer an alternative service, comparable accommodation, a modified itinerary, rescheduling, applicable credit or an applicable refund."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The appropriate solution will depend on the affected service, circumstances, supplier policy and applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "15. HOTELS AND ACCOMMODATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Accommodation photographs, room descriptions, star classifications, amenities and facilities may be supplied by hotels or other sources. Facilities may change without prior notice."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Standard hotel policies relating to check-in, check-out, security deposits, identification, additional guests, extra beds, meals, pets and property rules will apply."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where a confirmed property becomes unavailable, reasonable efforts will be made to arrange a comparable alternative, subject to availability."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "16. TRANSPORTATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Transport services may be provided by independent transport operators."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Vehicle type may be specified by category rather than a particular registration number or model."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travel time is affected by traffic, weather, road conditions, government restrictions and local conditions. Estimated travel times shared by Deshaatan are indicative."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travellers are responsible for their personal belongings during transportation."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Any arrangement made directly between the traveller and a driver or transport operator outside the confirmed itinerary is independent of Deshaatan unless expressly approved by us."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "17. ACTIVITIES AND EXPERIENCES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Participation in activities may be subject to age restrictions, height or weight restrictions, health and fitness requirements, safety rules, weather conditions, permits or operator instructions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travellers must comply with the instructions of the activity provider. A provider may refuse participation where reasonably necessary for safety or legal reasons."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "18. TRAVEL DOCUMENTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travellers are responsible for carrying all documents required for their journey, including where applicable government-issued identification, passport, visa, permits, tickets, medical documentation, driving licence and other legally required documents."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Unless specifically included in your booking, Deshaatan is not responsible for obtaining passports, visas or regulatory permissions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where Deshaatan assists with a permit or visa-related process, final approval remains solely with the relevant government authority."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "19. TRAVELLER INFORMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Users must provide accurate names, ages, contact information, identification details and other information reasonably required to complete the booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Names should match applicable government identification and travel documents."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Costs or losses arising from incorrect information supplied by the User may be payable by the User."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "20. HEALTH, SAFETY AND ACCESSIBILITY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travellers are responsible for assessing whether a destination, itinerary or activity is suitable for their individual circumstances. Our specialists can share practical information to help with this assessment."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Any relevant medical condition, mobility requirement, dietary requirement or accessibility need that may affect delivery of the trip should be disclosed before booking where assistance is required."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan does not provide medical advice. Travellers should consult an appropriate professional where necessary."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "21. TRAVEL INSURANCE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travellers are encouraged to obtain suitable travel insurance covering trip cancellation, medical emergencies, accidents, baggage loss, delays, emergency evacuation and other travel-related risks appropriate to their journey."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Unless expressly stated otherwise, travel insurance is not included in the package price."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "22. TRAVELLER CONDUCT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travellers must comply with applicable laws, property rules and reasonable instructions issued by Service Providers."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan or a Service Provider may refuse or terminate a service where a traveller engages in unlawful activity, creates a material safety risk, seriously disrupts other travellers, damages property, or abuses staff, partners or other individuals."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Any resulting costs may be payable by the traveller responsible."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "23. FORCE MAJEURE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan will not be responsible for failure or delay caused by events beyond its reasonable control, including natural disasters, extreme weather, flood, earthquake, wildfire, epidemic or pandemic, war, terrorism, civil disturbance, strikes, government restrictions, border closures, transportation disruption, road closures, major infrastructure failure or similar events."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where such an event affects a Booking, Deshaatan will make reasonable efforts to assist with available alternatives, rescheduling or supplier refunds, as applicable."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Additional costs resulting from such events may be payable by the traveller unless otherwise required by law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "24. WEBSITE CONTENT AND ACCURACY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan aims to keep travel information useful, practical and reasonably accurate. However, destinations, tariffs, schedules, regulations, opening hours and local conditions can change."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Content on destination pages, itineraries, cost guides or Planning Tools should not be treated as a guarantee that a particular service, price or condition will be available during your trip."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The final Booking Confirmation governs purchased services."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "25. REVIEWS, PHOTOS AND USER CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Users may be able to submit reviews, photographs, comments, travel stories or other content."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "By submitting content, you confirm that:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "you own the content or have permission to use it;"
+          }
+        ],
+        [
+          {
+            "text": "where the content shows identifiable individuals, you have their consent;"
+          }
+        ],
+        [
+          {
+            "text": "it does not violate another person's intellectual property or privacy rights;"
+          }
+        ],
+        [
+          {
+            "text": "it is not unlawful, deceptive, abusive or defamatory; and"
+          }
+        ],
+        [
+          {
+            "text": "it represents your genuine experience where it is submitted as a review."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You grant Deshaatan a worldwide, non-exclusive, royalty-free licence to host, reproduce, display, format and use such content in connection with operating and promoting Deshaatan, subject to applicable law. You retain ownership of your original content and may request its removal."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan will not publish fake reviews, will not remove reviews solely because they are negative, and will clearly identify any review that was incentivised or submitted in exchange for a benefit."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan may remove content that violates these Terms or applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "26. INTELLECTUAL PROPERTY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Unless otherwise indicated, the Deshaatan name, logo, branding, website design, original text, destination guides, itineraries, cost guides, comparisons, graphics, software, Planning Tools and other original material are owned by or licensed to Aurven Travel Commerce India Private Limited."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You may use the Platform for personal and non-commercial travel planning."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You may not, without written permission:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "reproduce substantial portions of the Platform;"
+          }
+        ],
+        [
+          {
+            "text": "republish Deshaatan content commercially;"
+          }
+        ],
+        [
+          {
+            "text": "systematically scrape or extract content;"
+          }
+        ],
+        [
+          {
+            "text": "use Deshaatan content to train or build artificial intelligence or machine learning models;"
+          }
+        ],
+        [
+          {
+            "text": "create an unauthorised competing database;"
+          }
+        ],
+        [
+          {
+            "text": "remove copyright notices; or"
+          }
+        ],
+        [
+          {
+            "text": "use Deshaatan branding in a manner suggesting endorsement."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Third-party trademarks, photographs and material remain the property of their respective owners. Further details are set out in our Copyright and Intellectual Property Policy."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "27. THIRD-PARTY WEBSITES AND SERVICES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "The Platform may contain links to websites or services operated by third parties. Deshaatan does not control those third-party platforms. Your interaction with them may be governed by their own terms, privacy policies and commercial conditions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "28. LIMITATION OF LIABILITY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Nothing in these Terms excludes or restricts liability that cannot legally be excluded under applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Subject to applicable law, Deshaatan will not be liable for indirect, incidental, special or consequential loss resulting from circumstances outside its reasonable control."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "For independently supplied travel services, liability relating to the actual performance of that service may rest with the Service Provider responsible for delivering it. Even in such cases, Deshaatan will act as your first point of contact and make reasonable efforts to help resolve issues with that provider."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where Deshaatan is legally liable in relation to a particular Booking, any contractual limitation will be interpreted consistently with applicable consumer law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "29. INDEMNIFICATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "To the extent permitted by applicable law, you agree to indemnify Deshaatan against third-party claims resulting directly from:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "your unlawful use of the Platform;"
+          }
+        ],
+        [
+          {
+            "text": "your intentional violation of these Terms;"
+          }
+        ],
+        [
+          {
+            "text": "material supplied by you that infringes third-party rights; or"
+          }
+        ],
+        [
+          {
+            "text": "unlawful conduct by you during a booked service."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "30. FRAUD AND MISUSE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan may refuse, cancel, suspend or investigate transactions involving suspected fraud, identity misuse, unauthorised payments, platform abuse, illegal activity, or manipulation of promotions or booking systems."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where appropriate, relevant information may be provided to banks, payment providers or lawful authorities."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "31. SUPPORT AND COMPLAINTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "On-trip support:",
+          "bold": true
+        },
+        {
+          "text": " Your Booking Confirmation will include a contact number for assistance during travel."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If you experience a problem during a trip, please notify Deshaatan as soon as reasonably possible so that we can attempt to resolve the issue while you are still travelling."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Post-trip complaints should include your Booking ID, traveller details, a description of the issue, and relevant photographs, receipts or supporting evidence."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Complaints may be submitted to:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com or 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will acknowledge complaints within 48 hours and aim to resolve them within one month of receipt. Traveller feedback is reviewed by Deshaatan's leadership to improve our services and Travel Partner selection."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "32. PRIVACY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Personal information collected through Deshaatan is handled in accordance with our Privacy Policy, which forms part of the overall terms governing use of the Platform."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "33. GOVERNING LAW AND JURISDICTION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "These Terms shall be governed by the laws of India."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Subject to applicable consumer protection laws and other mandatory legal rights, disputes shall be subject to the jurisdiction of the competent courts at Noida, Uttar Pradesh."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Nothing in this clause limits any statutory right that a consumer may have to approach an appropriate consumer commission, regulator or other legally competent authority."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "34. SEVERABILITY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions will continue to operate to the fullest extent permitted by law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "35. UPDATES TO THESE TERMS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan may update these Terms to reflect changes in our services, business practices, technology or applicable law. The latest version will be published on the Platform with its updated effective date."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Material changes affecting confirmed bookings will be handled according to applicable law and the terms applicable when the booking was confirmed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "36. CONTACT US",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "For questions regarding these Terms or your Booking, contact:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan / Aurven Travel Commerce India Private Limited",
+          "bold": true
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Phone:",
+          "bold": true
+        },
+        {
+          "text": " 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "For consumer grievance matters:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Grievance Officer:",
+          "bold": true
+        },
+        {
+          "text": " [Grievance Officer Name]"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Phone:",
+          "bold": true
+        },
+        {
+          "text": " 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Address:",
+          "bold": true
+        },
+        {
+          "text": " Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    }
+  ],
+  "privacy-policy": [
+    {
+      "type": "h1",
+      "space": 0,
+      "content": [
+        {
+          "text": "PRIVACY POLICY",
+          "bold": true
+        }
+      ],
+      "size": 28,
+      "line": 36
+    },
+    {
+      "type": "updated",
+      "space": 6,
+      "content": [
+        {
+          "text": "Last Updated: 5 October 2026"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "This Privacy Policy explains how Aurven Travel Commerce India Private Limited, operating Deshaatan / www.deshaatan.com (\"Deshaatan\", \"we\", \"us\" or \"our\"), collects, uses, stores and shares personal information when you use our Platform, planning tools or travel services."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We are committed to handling personal information responsibly and in accordance with the privacy and data-protection laws applicable to us in India from time to time, including applicable provisions of the Digital Personal Data Protection Act, 2023 and the rules made under it as and when those provisions come into force, together with other applicable information-technology, consumer-protection and legal requirements."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "1. SCOPE OF THIS POLICY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "This Policy applies when you:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "visit www.deshaatan.com;"
+          }
+        ],
+        [
+          {
+            "text": "create an account;"
+          }
+        ],
+        [
+          {
+            "text": "use our Planning Tools or AI-assisted travel assistant;"
+          }
+        ],
+        [
+          {
+            "text": "submit a travel enquiry or request a quotation;"
+          }
+        ],
+        [
+          {
+            "text": "consult a Deshaatan destination specialist;"
+          }
+        ],
+        [
+          {
+            "text": "book a package or travel service;"
+          }
+        ],
+        [
+          {
+            "text": "communicate with our team;"
+          }
+        ],
+        [
+          {
+            "text": "subscribe to communications;"
+          }
+        ],
+        [
+          {
+            "text": "participate in a promotion or referral programme;"
+          }
+        ],
+        [
+          {
+            "text": "submit reviews, photographs or travel stories; or"
+          }
+        ],
+        [
+          {
+            "text": "otherwise interact with Deshaatan."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "2. INFORMATION WE MAY COLLECT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "The information collected depends on how you use Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.1 Identity and Contact Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Name, email address, mobile number, postal address, city, country and account information."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.2 Traveller Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "When required to arrange travel, we may collect information about you or other travellers included in your booking, such as:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "full name, age and date of birth;"
+          }
+        ],
+        [
+          {
+            "text": "gender where required for the relevant service;"
+          }
+        ],
+        [
+          {
+            "text": "identification details, passport information and nationality;"
+          }
+        ],
+        [
+          {
+            "text": "travel preferences;"
+          }
+        ],
+        [
+          {
+            "text": "medical, mobility, dietary or accessibility requirements that you choose to share so that we can arrange suitable services; and"
+          }
+        ],
+        [
+          {
+            "text": "other information reasonably required by a Service Provider or authority."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Health, mobility and similar information will be used only to arrange suitable services and shared only with the Travel Partners who need it for that purpose."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You should only provide another person's information when you are authorised to do so."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.3 Trip Planning Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "When you use our Planning Tools, recommendation features or AI assistant, or speak with a specialist, we may collect information such as budget, departure city, travel dates, trip duration, group composition, interests and destination preferences."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.4 Booking Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Destinations, travel dates, number of travellers, accommodation preferences, itinerary, activities, transportation requirements, booking history, quotation information, special requests and communications relating to the booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.5 Payment and Transaction Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Payments may be processed through independent payment gateways, banks or financial service providers. Deshaatan may receive transaction information such as amount paid, payment status, transaction reference, payment method category and refund status."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where payments are processed directly by a payment provider, complete debit or credit card credentials are processed by that provider rather than by Deshaatan."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.6 Communications and Specialist Consultations",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If you contact us by email, phone, WhatsApp, chat, social media or another support channel, we may retain relevant correspondence and records necessary to respond to you, manage your Booking or resolve disputes."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Calls with Deshaatan specialists may be recorded for quality, training and dispute-resolution purposes. You will be informed at the start of a recorded call."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "2.7 Technical and Usage Information",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "When you use our Platform, certain technical information may be collected automatically, including IP address, browser type, device type, operating system, referring pages, pages viewed, session information, approximate location derived from network information, cookies and identifiers, and interaction and analytics data."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "3. HOW WE COLLECT INFORMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Information may be collected:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "directly from you;"
+          }
+        ],
+        [
+          {
+            "text": "from another traveller making a booking on your behalf;"
+          }
+        ],
+        [
+          {
+            "text": "through website forms and Planning Tools;"
+          }
+        ],
+        [
+          {
+            "text": "through specialist consultations and customer-support communications;"
+          }
+        ],
+        [
+          {
+            "text": "through cookies and analytics technologies;"
+          }
+        ],
+        [
+          {
+            "text": "from payment providers;"
+          }
+        ],
+        [
+          {
+            "text": "from Travel Partners involved in a Booking;"
+          }
+        ],
+        [
+          {
+            "text": "from a person who refers you to Deshaatan; and"
+          }
+        ],
+        [
+          {
+            "text": "from other sources where permitted by law."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "4. WHY WE USE PERSONAL INFORMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Help You Plan and Book Travel",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To respond to enquiries, recommend suitable destinations and itineraries, prepare quotations, customise trips, process bookings, arrange accommodation, transport and activities, issue confirmations, provide support before and during travel, and administer cancellations and refunds."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Communicate With You",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To send booking confirmations, payment notifications, itinerary updates, service alerts, changes affecting your travel, support messages and other transactional communications."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Improve Deshaatan",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To understand how travellers use the Platform, improve destination content and itineraries, enhance search, recommendations and Planning Tools, develop new services, measure Platform performance, and detect technical issues."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Security and Fraud Prevention",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To secure accounts, prevent payment fraud, investigate suspicious activity, protect travellers and partners, and enforce our legal rights."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Legal and Regulatory Requirements",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To comply with applicable law, respond to lawful requests, maintain accounting or taxation records, address legal claims, and cooperate with competent authorities."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "5. PERSONALISATION AND AI-ASSISTED PLANNING",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If you use our recommendation tools, trip planner, itinerary builder or AI-assisted travel features, we may process information you provide, such as your destination interests, budget, travel dates, departure city, group composition and preferences, to generate suggestions relevant to your trip."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "AI-generated suggestions are intended to assist travel planning and may occasionally be incomplete, outdated or inaccurate. Important travel information should be verified before booking, and you may request assistance from a Deshaatan specialist."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Conversations and information submitted through AI-assisted features may be retained where reasonably necessary to:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "provide and maintain the feature;"
+          }
+        ],
+        [
+          {
+            "text": "preserve your trip-planning context;"
+          }
+        ],
+        [
+          {
+            "text": "allow a Deshaatan specialist to continue assisting you without requiring you to repeat information;"
+          }
+        ],
+        [
+          {
+            "text": "improve the quality, safety and performance of Deshaatan's planning experience;"
+          }
+        ],
+        [
+          {
+            "text": "investigate misuse or technical problems; and"
+          }
+        ],
+        [
+          {
+            "text": "comply with applicable legal obligations."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan may use third-party technology or AI service providers to support these features. Where such providers process personal data on our behalf, we will seek to use appropriate contractual, technical and organisational safeguards consistent with applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You should avoid entering unnecessary sensitive personal information, passwords, complete payment-card details or identity-document information into an AI chat or planning field unless Deshaatan specifically requests that information through an appropriate process for a legitimate travel purpose."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where we use your previous enquiries, bookings or stated preferences to personalise recommendations, such use will be carried out in accordance with this Privacy Policy and applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You may contact us at care@deshaatan.com regarding the personal information associated with your AI-assisted interactions or to exercise rights available to you under applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "6. CONSENT AND CHOICE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where consent is required under applicable law, we will seek clear consent before processing personal data for the relevant purpose."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where processing is based on consent, you may withdraw that consent at any time by writing to care@deshaatan.com. Withdrawal does not affect processing lawfully carried out before the withdrawal."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Certain information is necessary to fulfil a Booking. If that information is not provided, we may be unable to provide the requested travel service."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "7. TRAVEL PARTNERS AND SERVICE PROVIDERS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "To fulfil your travel arrangements, we may share relevant information with hotels, homestays, tour operators, destination management companies, transport operators, drivers, activity providers, local guides, insurance providers where selected, payment processors, technology providers and other suppliers involved in your requested service."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Only information reasonably required for the relevant purpose is shared."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Independent Travel Partners may process information according to their own legal obligations and privacy practices."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "8. OTHER CIRCUMSTANCES IN WHICH INFORMATION MAY BE SHARED",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "With technology and business service providers",
+            "bold": true
+          },
+          {
+            "text": " supporting cloud hosting, email, customer support, analytics, security, accounting, CRM systems and payment processing, who process information on our behalf."
+          }
+        ],
+        [
+          {
+            "text": "With AI and technology service providers:",
+            "bold": true
+          },
+          {
+            "text": " where Deshaatan uses third-party artificial-intelligence, automation, cloud or software providers to operate Planning Tools or other Platform functionality, only information reasonably necessary for the relevant function will be made available to such providers, subject to appropriate arrangements and applicable law. Deshaatan will not intentionally provide complete payment-card credentials to an AI service provider for travel-planning purposes."
+          }
+        ],
+        [
+          {
+            "text": "With authorities",
+            "bold": true
+          },
+          {
+            "text": " where required by applicable law, court order, lawful government request or regulatory obligation."
+          }
+        ],
+        [
+          {
+            "text": "In business transactions:",
+            "bold": true
+          },
+          {
+            "text": " if Aurven Travel Commerce India Private Limited undergoes a merger, acquisition, restructuring, financing or transfer of business assets, relevant information may be transferred subject to applicable law and appropriate protections."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "9. WE DO NOT SELL YOUR DATA OR YOUR ENQUIRY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan does not sell personal information to third parties."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan does not sell, rent or pass your enquiry details to other travel agents or companies for lead generation. Your enquiry is handled by Deshaatan and shared only with Travel Partners needed to fulfil a service you have requested."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "10. COOKIES AND SIMILAR TECHNOLOGIES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan may use cookies and similar technologies to keep the Platform functioning, remember preferences, understand Platform performance, analyse usage, improve user experience and measure marketing effectiveness."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "Strictly Necessary Cookies",
+            "bold": true
+          },
+          {
+            "text": " are required for basic Platform functions."
+          }
+        ],
+        [
+          {
+            "text": "Functional Cookies",
+            "bold": true
+          },
+          {
+            "text": " remember preferences and settings."
+          }
+        ],
+        [
+          {
+            "text": "Analytics Cookies",
+            "bold": true
+          },
+          {
+            "text": " help us understand how visitors use the Platform."
+          }
+        ],
+        [
+          {
+            "text": "Advertising or Marketing Cookies",
+            "bold": true
+          },
+          {
+            "text": " may be used where applicable and permitted to measure or personalise marketing."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where required by law, optional cookies will be used based on the choices you make through our cookie controls. You may also control cookies using your browser settings."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "11. ANALYTICS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan may use analytics tools to understand visitor behaviour and Platform performance. Analytics providers may process device information, usage events and technical identifiers according to their applicable terms and privacy practices."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "12. MARKETING COMMUNICATIONS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where legally permitted, Deshaatan may send information about destinations, travel guides, packages, offers, new services and other travel-related content."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Marketing communications will provide an easy method to unsubscribe. Opting out of marketing will not stop essential transactional communications about an active enquiry or Booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "13. WHATSAPP, SMS AND PHONE COMMUNICATIONS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where you provide your mobile number and use our enquiry or booking services, we may contact you through channels reasonably necessary to respond to your request or administer your Booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Promotional communications will be handled in accordance with applicable telecommunications and privacy requirements."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "14. REFERRALS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If you refer a friend or family member to Deshaatan, you confirm that they are happy for you to share their contact details with us. We will use those details only to contact them about the referral, and they may ask us to stop at any time."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "15. INTERNATIONAL PROCESSING AND TRAVEL",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel bookings frequently involve providers located outside India. Where you request international travel, personal information reasonably necessary to fulfil the Booking may be shared with foreign hotels, destination partners, transportation providers or other overseas recipients."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will handle such transfers in accordance with applicable Indian law. Different countries may have different data protection standards."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "16. DATA RETENTION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "We retain personal information only for as long as reasonably necessary for the purpose for which it was collected or for another purpose permitted by applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Relevant considerations may include the period necessary to:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "provide travel-planning and booking services;"
+          }
+        ],
+        [
+          {
+            "text": "administer your account;"
+          }
+        ],
+        [
+          {
+            "text": "maintain booking, payment and transaction records;"
+          }
+        ],
+        [
+          {
+            "text": "comply with accounting, taxation and other statutory requirements;"
+          }
+        ],
+        [
+          {
+            "text": "manage cancellations, refunds, complaints and disputes;"
+          }
+        ],
+        [
+          {
+            "text": "prevent fraud or misuse;"
+          }
+        ],
+        [
+          {
+            "text": "establish, exercise or defend legal claims; and"
+          }
+        ],
+        [
+          {
+            "text": "comply with applicable legal or regulatory obligations."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Different categories of personal information may therefore have different retention periods."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where applicable law requires deletion after the relevant purpose has been completed or consent has been withdrawn, we will act in accordance with those requirements, subject to any lawful basis or legal obligation requiring continued retention."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "When personal information is no longer required, we will take reasonable steps to delete, anonymise or otherwise securely dispose of it."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "17. INFORMATION SECURITY AND DATA BREACHES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan uses reasonable technical and organisational safeguards, including access controls, authentication, secure hosting, encrypted communications where appropriate, system monitoring, restricted internal access, backups and security procedures."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "No internet transmission or electronic storage method is completely secure, and absolute security cannot be guaranteed."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If a personal data breach occurs, Deshaatan will take reasonable containment and remediation measures and will notify affected individuals and the competent authority where required by applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "18. YOUR PRIVACY RIGHTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Depending on the law applicable at the relevant time and the provisions then in force, you may have rights in relation to your personal data."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "These may include the right to:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "request information about personal data being processed about you;"
+          }
+        ],
+        [
+          {
+            "text": "request correction of inaccurate personal data;"
+          }
+        ],
+        [
+          {
+            "text": "request completion or updating of incomplete or outdated personal data;"
+          }
+        ],
+        [
+          {
+            "text": "request erasure of personal data where the law permits or requires it;"
+          }
+        ],
+        [
+          {
+            "text": "withdraw consent where processing is based on consent;"
+          }
+        ],
+        [
+          {
+            "text": "raise a grievance regarding our handling of your personal data;"
+          }
+        ],
+        [
+          {
+            "text": "nominate another individual to exercise applicable rights in circumstances recognised by law; and"
+          }
+        ],
+        [
+          {
+            "text": "exercise any other rights available under applicable data-protection law from time to time."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Certain rights may become available only when the relevant statutory provisions come into force."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We may need to verify your identity before acting on a request. We may also retain information where continued retention is required or permitted by law, notwithstanding an erasure request."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "To exercise an applicable privacy right or raise a privacy grievance, contact:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will handle requests within the timelines prescribed by applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "19. CHILDREN'S PERSONAL DATA",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan does not permit a minor to independently enter into a travel-booking contract."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A parent, legal guardian or other authorised adult may provide information relating to a child where reasonably necessary to plan or arrange family travel."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where applicable data-protection law requires parental or guardian consent, age verification, additional safeguards or other conditions before children's personal data may be processed, Deshaatan will implement those requirements when applicable."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan does not use children's personal data for targeted advertising or behavioural monitoring directed at children."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Information relating to a child will be used only for legitimate purposes associated with the requested service or as otherwise permitted by applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "20. ACCURACY OF YOUR INFORMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "You are responsible for ensuring that information supplied to Deshaatan is accurate. Please notify us if information relevant to an active Booking needs to be corrected. Incorrect traveller information may result in booking problems or supplier charges."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "21. THIRD-PARTY WEBSITES AND SOCIAL MEDIA",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Our Platform may link to hotel websites, tourist attractions, government websites, social networks, payment providers or other independent websites. Their privacy practices are governed by their own privacy policies."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Interactions with Deshaatan through social-media platforms may also involve processing by the relevant social-media provider."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "22. CHANGES TO THIS PRIVACY POLICY",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "We may update this Privacy Policy to reflect changes in our services, technologies, business practices or applicable laws. The latest version will be published on this page with the revised \"Last Updated\" date. Where required, material changes will also be communicated through appropriate additional means."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "23. GRIEVANCE AND CONTACT INFORMATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "For privacy questions, personal-data requests or grievances, contact:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan / Aurven Travel Commerce India Private Limited",
+          "bold": true
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Registered Address:",
+          "bold": true
+        },
+        {
+          "text": " Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Privacy Contact / Grievance Officer:",
+          "bold": true
+        },
+        {
+          "text": " [Grievance Officer Name]"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Phone:",
+          "bold": true
+        },
+        {
+          "text": " 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will acknowledge and address privacy requests and grievances in accordance with the timelines and procedures required under applicable law. Where no specific statutory timeline applies, we will nevertheless seek to respond within a reasonable period."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    }
+  ],
+  "copyright-policy": [
+    {
+      "type": "h1",
+      "space": 0,
+      "content": [
+        {
+          "text": "COPYRIGHT & INTELLECTUAL PROPERTY POLICY",
+          "bold": true
+        }
+      ],
+      "size": 28,
+      "line": 36
+    },
+    {
+      "type": "updated",
+      "space": 6,
+      "content": [
+        {
+          "text": "Last Updated: 5 October 2026"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "This Copyright and Intellectual Property Policy explains the ownership, permitted use and protection of content available through www.deshaatan.com and other Deshaatan platforms."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "For this Policy, \"Deshaatan\", \"we\", \"us\" or \"our\" refers to Aurven Travel Commerce India Private Limited."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "1. DESHAATAN CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "The Deshaatan Platform may include destination guides, articles, travel recommendations, itineraries, itinerary structures, cost guides, destination comparisons, package descriptions, activity descriptions, specialist-authored content, Planning Tools, maps, photographs, videos, illustrations, graphics, icons, logos, designs, databases, reviews, page layouts, software, metadata and other written, visual or digital material."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Content may be created and owned by Deshaatan, licensed to Deshaatan, supplied by Travel Partners, supplied by users, or used under another lawful basis."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The applicable intellectual-property rights remain with the relevant rights holder."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "2. OWNERSHIP OF ORIGINAL DESHAATAN CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Unless otherwise stated, original content created by Deshaatan is owned by Aurven Travel Commerce India Private Limited and protected by applicable copyright, trademark and other intellectual-property laws."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Users may access such content for personal and non-commercial travel-planning purposes."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "3. PROHIBITED USES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Without prior written permission, you may not:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "reproduce substantial portions of Deshaatan content;"
+          }
+        ],
+        [
+          {
+            "text": "republish our articles, destination guides, itineraries or cost guides;"
+          }
+        ],
+        [
+          {
+            "text": "copy our original package descriptions for commercial use;"
+          }
+        ],
+        [
+          {
+            "text": "systematically scrape our Platform;"
+          }
+        ],
+        [
+          {
+            "text": "use Deshaatan content to train, fine-tune or build artificial intelligence or machine learning models, or for text and data mining;"
+          }
+        ],
+        [
+          {
+            "text": "create a database using substantial portions of our content;"
+          }
+        ],
+        [
+          {
+            "text": "sell or sublicense our content;"
+          }
+        ],
+        [
+          {
+            "text": "remove ownership or copyright notices;"
+          }
+        ],
+        [
+          {
+            "text": "falsely claim Deshaatan content as your own;"
+          }
+        ],
+        [
+          {
+            "text": "use Deshaatan content to impersonate or misrepresent an association with us; or"
+          }
+        ],
+        [
+          {
+            "text": "reproduce Deshaatan branding in a manner likely to cause confusion."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Normal sharing of links to publicly accessible Deshaatan pages is permitted and encouraged."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Limited quotations may be used where permitted by applicable law and accompanied by appropriate attribution and a link to the original page."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "4. DESHAATAN NAME, LOGO AND TRADEMARKS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "The name Deshaatan, its logos, visual identity, taglines (including \"Discover better. Plan smarter. Travel confidently.\") and other brand identifiers may constitute trademarks or proprietary brand assets of Aurven Travel Commerce India Private Limited."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Nothing on the Platform grants a licence to use Deshaatan branding without prior written permission."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Third-party trademarks appearing on the Platform remain the property of their respective owners."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "5. TRAVEL PARTNER CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Hotels, homestays, tour operators, activity providers, photographers, guides and other Travel Partners may provide Deshaatan with property descriptions, photographs, videos, itineraries, activity details, brochures, logos or other content."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "By providing such material, the Travel Partner represents that it owns the content, or has sufficient permission or licence to supply it to Deshaatan and authorise its intended use."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Travel Partners must not knowingly submit material that infringes the intellectual-property rights of another person."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "6. LICENCE FOR PARTNER CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Unless agreed otherwise in writing, a Travel Partner supplying content for display or promotion grants Deshaatan a non-exclusive, worldwide, royalty-free licence to host, reproduce, display, format, resize, adapt for technical presentation, distribute and promote that content for purposes connected with Deshaatan's Platform, travel products, advertising and marketing."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Ownership of the underlying material remains with the relevant rights holder unless expressly transferred under a separate written agreement."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "7. ACCURACY OF PARTNER CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel Partners are responsible for ensuring that material supplied to Deshaatan accurately represents the relevant property, activity or service."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Images or descriptions must not create a materially misleading impression of the service being offered. Outdated photographs, heavily edited images or images of a different property or room category must not be presented as current."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan may edit, reject or remove material that is inaccurate, misleading, low quality or potentially infringing."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "8. USER-SUBMITTED CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Users may submit reviews, comments, photographs, videos, travel stories or other content."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "By submitting content, you represent that:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "you created it or have permission to submit it;"
+          }
+        ],
+        [
+          {
+            "text": "where it shows identifiable individuals, you have their consent;"
+          }
+        ],
+        [
+          {
+            "text": "it does not infringe copyright, trademark, privacy or other rights;"
+          }
+        ],
+        [
+          {
+            "text": "it is lawful; and"
+          }
+        ],
+        [
+          {
+            "text": "you have authority to grant the licence described below."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You retain ownership of your original User Content."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "9. LICENCE FOR USER CONTENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "By submitting User Content to Deshaatan, you grant Deshaatan a non-exclusive, worldwide, royalty-free licence to host, reproduce, display, resize, format, publish, distribute and use the content for operating, promoting and improving Deshaatan and its travel services."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where we feature your photographs or stories, we will try to credit you where practical. Where legally required, attribution and other moral rights will be respected in accordance with applicable law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "You may request removal of your published content at any time by writing to care@deshaatan.com. We will remove it from the Platform within a reasonable time, although copies already used in printed or previously published materials may not be recoverable."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "10. PHOTOGRAPHS AND VIDEOS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Photographs and videos displayed on Deshaatan may be created or commissioned by Deshaatan, licensed from photographers or media libraries, provided by Travel Partners, provided by travellers, or otherwise lawfully sourced."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The presence of an image on Deshaatan does not mean that the image is free for reuse. Users wishing to use a particular image commercially should contact us to determine the applicable rights."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "11. STOCK, LICENSED, GENERATED AND AI-ASSISTED MEDIA",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where Deshaatan or a contributor uses stock, licensed, generated or AI-assisted media, such material must be used consistently with applicable licences, contractual restrictions and law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "AI-generated, digitally reconstructed or substantially manipulated visual content must not be presented in a manner that materially misleads travellers about the actual appearance, facilities, condition or experience of a destination, hotel, room, attraction, activity or other travel service."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where AI-generated or substantially edited imagery could reasonably be mistaken for an actual photograph of a travel service or destination, Deshaatan will use an appropriate disclosure or contextual label."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "AI-assisted creation or editing does not override the intellectual-property rights of photographers, artists, brands or other rights holders."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Contributors and Travel Partners must not provide material to Deshaatan while falsely representing that they own, created or hold exclusive rights to material belonging to another party."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "12. REPORTING COPYRIGHT INFRINGEMENT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan respects intellectual-property rights. If you believe material appearing on Deshaatan infringes copyright that you own or are authorised to represent, please send a complaint containing:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "your full name and contact information;"
+          }
+        ],
+        [
+          {
+            "text": "identification of the copyrighted work;"
+          }
+        ],
+        [
+          {
+            "text": "the exact Deshaatan URL containing the allegedly infringing material;"
+          }
+        ],
+        [
+          {
+            "text": "identification of the specific material complained of;"
+          }
+        ],
+        [
+          {
+            "text": "evidence reasonably demonstrating ownership or authority to act for the owner;"
+          }
+        ],
+        [
+          {
+            "text": "a statement explaining why you believe the use is unauthorised; and"
+          }
+        ],
+        [
+          {
+            "text": "a declaration that the information supplied in your complaint is accurate to the best of your knowledge."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Complaints should be sent to:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Postal Address:",
+          "bold": true
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Aurven Travel Commerce India Private Limited"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    }
+  ],
+  "refund-and-cancellation-policy": [
+    {
+      "type": "h1",
+      "space": 0,
+      "content": [
+        {
+          "text": "REFUND AND CANCELLATION POLICY",
+          "bold": true
+        }
+      ],
+      "size": 28,
+      "line": 36
+    },
+    {
+      "type": "updated",
+      "space": 6,
+      "content": [
+        {
+          "text": "Last Updated: 5 October 2026"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "At Deshaatan, we believe you should understand what happens to your money before you book, not after something changes. This policy explains how cancellations, changes and refunds work for bookings made through www.deshaatan.com and other Deshaatan channels."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "This policy is operated by Aurven Travel Commerce India Private Limited (\"Deshaatan\", \"we\", \"us\" or \"our\") and forms part of our Terms and Conditions."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "1. WHICH CANCELLATION TERMS APPLY TO YOUR BOOKING",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel services are supplied by many different hotels, transport operators and activity providers, and each has its own cancellation terms. For this reason:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "the cancellation policy stated in your quotation or Booking Confirmation applies to your Booking and takes priority over the general terms below;"
+          }
+        ],
+        [
+          {
+            "text": "you will see the applicable cancellation terms before you make any payment; and"
+          }
+        ],
+        [
+          {
+            "text": "where your quotation does not state specific terms, the standard terms in Section 3 apply."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If anything in your cancellation terms is unclear, please ask your Deshaatan specialist before paying. We would rather explain it upfront than surprise you later."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "2. HOW TO CANCEL",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "To cancel a Booking, please write to care@deshaatan.com from the email address used for the Booking, or contact your Deshaatan specialist in writing, and include:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "your Booking ID;"
+          }
+        ],
+        [
+          {
+            "text": "the lead traveller's name; and"
+          }
+        ],
+        [
+          {
+            "text": "whether you are cancelling the full Booking or only some travellers or services."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The cancellation will be treated as effective from the date and time we receive your written request. Where a request is received outside working hours, it will be treated as received on the next working day, unless otherwise stated in your Booking Confirmation."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We will acknowledge your request and share a written breakdown of the cancellation charges and refundable amount."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "3. STANDARD CANCELLATION CHARGES FOR DESHAATAN PACKAGES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Unless your quotation or Booking Confirmation states different terms, the following charges apply to Deshaatan holiday packages, calculated on the total package cost:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "table",
+      "space": 20,
+      "rows": [
+        [
+          [
+            {
+              "text": "When you cancel (before the start date of travel)",
+              "bold": true
+            }
+          ],
+          [
+            {
+              "text": "Cancellation charge",
+              "bold": true
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "More than [45] days"
+            }
+          ],
+          [
+            {
+              "text": "[10]% of package cost"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "[44] to [30] days"
+            }
+          ],
+          [
+            {
+              "text": "[25]% of package cost"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "[29] to [15] days"
+            }
+          ],
+          [
+            {
+              "text": "[50]% of package cost"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "[14] to [7] days"
+            }
+          ],
+          [
+            {
+              "text": "[75]% of package cost"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "text": "Less than [7] days, or no-show"
+            }
+          ],
+          [
+            {
+              "text": "[100]% of package cost"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where the actual amount retained by suppliers is lower than the charge above, we will apply the lower amount."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "4. NON-REFUNDABLE COMPONENTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Some components cannot be refunded once booked, regardless of when you cancel. Where applicable, these will be identified in your quotation and may include:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "flight, train or bus tickets, which follow the carrier's own cancellation rules;"
+          }
+        ],
+        [
+          {
+            "text": "hotels or rooms booked on non-refundable rates;"
+          }
+        ],
+        [
+          {
+            "text": "bookings for peak season, long weekends, festivals, New Year or special events;"
+          }
+        ],
+        [
+          {
+            "text": "permits, entry tickets, visa fees and government charges;"
+          }
+        ],
+        [
+          {
+            "text": "activities or experiences booked on non-refundable terms; and"
+          }
+        ],
+        [
+          {
+            "text": "payment-gateway or bank charges already incurred, where disclosed."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "5. PARTIAL CANCELLATIONS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If some travellers cancel while others continue with the trip, the package will be recalculated for the revised group size. Room sharing, vehicle cost and group pricing may change, and the remaining travellers may need to pay the difference. We will share the revised price before making any change."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "6. CHANGES INSTEAD OF CANCELLATION",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If your plans change, a date change or itinerary modification may cost less than a full cancellation. Requests to change travel dates, destinations, hotels, vehicles or traveller names are subject to availability and supplier rules. Any applicable charges or fare differences will be shared before the change is confirmed, and a change is only confirmed once we confirm it in writing."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "7. NO-SHOW AND UNUSED SERVICES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If you do not arrive for a booked service, leave a trip early, or choose not to use any part of your itinerary (such as a meal, sightseeing tour, transfer or hotel night), no refund will normally be available for the unused portion. Where a supplier agrees to refund an unused service, we will pass that refund on to you."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "8. CANCELLATIONS OR CHANGES BY DESHAATAN OR TRAVEL PARTNERS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If Deshaatan or a Travel Partner has to cancel or significantly change a confirmed service for reasons within our or their control, we will inform you as soon as reasonably possible and offer you a choice of:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "a comparable alternative service;"
+          }
+        ],
+        [
+          {
+            "text": "a revised itinerary or new travel dates; or"
+          }
+        ],
+        [
+          {
+            "text": "a refund of the amount paid for the affected service."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "If you choose an alternative of a lower value, we will refund the difference."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "9. EVENTS BEYOND REASONABLE CONTROL",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Where travel is affected by events such as natural disasters, extreme weather, landslides, road closures, epidemics, government restrictions, civil disturbances or similar events, we will work with our Travel Partners to recover as much of your money as possible and help you with rescheduling or alternatives."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "In such cases, refunds depend on what suppliers agree to return. Any supplier charges that cannot be recovered may be deducted, and we will share a breakdown of these with you."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "10. REFUND PROCESS AND TIMELINES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Once a refund is confirmed:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "the refund will be made to the original payment method used for the Booking, unless you request otherwise and we are able to verify the request;"
+          }
+        ],
+        [
+          {
+            "text": "where the refundable amount is held by Deshaatan, we will initiate the refund after the cancellation and refundable amount are confirmed;"
+          }
+        ],
+        [
+          {
+            "text": "where the refund depends on a Travel Partner, we will initiate it after receiving the corresponding amount, and we will keep you informed if a supplier-dependent refund is significantly delayed; and"
+          }
+        ],
+        [
+          {
+            "text": "where a specific refund timeline is stated in your Booking Confirmation or cancellation terms, that timeline will apply."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "After a refund is initiated, banks, card networks, UPI providers and payment gateways may take additional time to credit the amount to your account. This processing time is outside Deshaatan's direct control."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "11. TRAVEL CREDIT",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "In some situations, we may offer a travel credit instead of a cash refund, for example when a supplier offers a credit rather than a refund. A travel credit will only be issued with your agreement. Where a cash refund is due to you under this policy or applicable law, you will not be required to accept a credit instead."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The validity period and conditions of any travel credit will be confirmed in writing when it is issued."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "12. TAXES ON CANCELLATION CHARGES",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Cancellation charges may attract GST or other applicable taxes as required by law. Where taxes were paid on the original Booking, refunds of tax amounts will be handled in accordance with applicable tax rules."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "13. FAILED OR DUPLICATE PAYMENTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If a payment is deducted from your account but the Booking is not confirmed, or if you are charged twice for the same Booking, please contact us with the transaction details. Such amounts will be reversed or refunded in accordance with the timelines applicable to your payment method and bank."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "14. TRAVEL INSURANCE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Cancellation charges can be significant, especially close to departure. We encourage you to consider travel insurance that covers trip cancellation and interruption. Unless expressly included in your Booking, travel insurance is not part of your package."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "15. QUESTIONS AND COMPLAINTS",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "If you have a question about a cancellation charge or refund, or if you disagree with the amount calculated, please contact us. We will acknowledge complaints within 48 hours and aim to resolve them within one month of receipt."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan / Aurven Travel Commerce India Private Limited",
+          "bold": true
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Phone:",
+          "bold": true
+        },
+        {
+          "text": " 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Grievance Officer:",
+          "bold": true
+        },
+        {
+          "text": " [Grievance Officer Name]"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Nothing in this policy limits any right you may have under applicable consumer protection law."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    }
+  ],
+  "about-us": [
+    {
+      "type": "h1",
+      "space": 0,
+      "content": [
+        {
+          "text": "ABOUT US",
+          "bold": true
+        }
+      ],
+      "size": 28,
+      "line": 36
+    },
+    {
+      "type": "tagline",
+      "space": 10,
+      "content": [
+        {
+          "text": "Deshaatan is where India discovers, plans and books better journeys.",
+          "bold": true
+        }
+      ],
+      "size": 18,
+      "line": 27
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Planning a holiday today means jumping between Instagram reels, YouTube videos, blogs, review sites and several travel agents, each giving you different information and different prices. By the time you book, you may still not be sure whether you chose the right trip."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "The problem is not a lack of travel information. It is a lack of reliable guidance that connects discovery, planning and booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan was built to bridge that gap."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "WHAT WE BELIEVE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "You should understand what you are buying before you book it.",
+          "bold": true
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "A holiday is not just a hotel room and a car. It is your limited leave, time with your family, and memories you will carry for years. That is why we focus on helping you answer the real questions first:"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Where should we go? Is this destination right for our family? How many days do we need? What will the trip actually cost? When is the best time to go? What is worth paying for, and what should we skip?"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Only after that do we talk about booking."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "WHAT WE DO",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan Guides",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 8,
+      "content": [
+        {
+          "text": "Practical destination guides that answer real traveller questions, covering the best time to visit, where to stay, how to get around, what things cost, and what families, couples, senior travellers and pilgrims need to know."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan Itineraries",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 8,
+      "content": [
+        {
+          "text": "Realistic day-by-day plans built around how people actually travel, with travel sequence, approximate costs, stay options and honest practical advice."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan Holidays",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 8,
+      "content": [
+        {
+          "text": "A focused set of carefully designed holiday packages rather than thousands of look-alike options. Every package clearly shows the itinerary, hotels, transport, experiences, inclusions, exclusions, price and cancellation terms, and can be customised to suit you."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "h3",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan Experts",
+          "bold": true
+        }
+      ],
+      "size": 15.4,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 8,
+      "content": [
+        {
+          "text": "Destination specialists who know the places they plan. Technology helps us organise information. Our specialists bring the judgement, context and reassurance that a good trip needs."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "RESEARCH YOUR TRIP LIKE AN EXPERT. BOOK IT WITH AN EXPERT.",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Travel blogs give you information. Booking portals process transactions. Travel agents sell packages."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Deshaatan brings all three together in one connected experience, so you can explore, compare, plan, customise and book in one place, with real people to help you along the way."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "OUR PROMISE",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "Discover better.",
+            "bold": true
+          },
+          {
+            "text": " Find destinations and experiences that genuinely suit your interests, budget, season and time."
+          }
+        ],
+        [
+          {
+            "text": "Plan smarter.",
+            "bold": true
+          },
+          {
+            "text": " Use practical guides, realistic itineraries and transparent cost information to make confident decisions."
+          }
+        ],
+        [
+          {
+            "text": "Travel confidently.",
+            "bold": true
+          },
+          {
+            "text": " Book with clear pricing, dependable travel partners and support before and during your trip."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "HOW WE WORK",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "list",
+      "space": 15,
+      "items": [
+        [
+          {
+            "text": "Honest advice.",
+            "bold": true
+          },
+          {
+            "text": " We will not recommend a trip that is wrong for you just because it earns us more."
+          }
+        ],
+        [
+          {
+            "text": "Clear pricing.",
+            "bold": true
+          },
+          {
+            "text": " You will know what is included, what is not, and what you may need to pay at the destination, before you pay us."
+          }
+        ],
+        [
+          {
+            "text": "Clear policies.",
+            "bold": true
+          },
+          {
+            "text": " Cancellation and refund terms are shown upfront, in plain language."
+          }
+        ],
+        [
+          {
+            "text": "Realistic expectations.",
+            "bold": true
+          },
+          {
+            "text": " We tell you about long drives, weather risks and hotel limitations, not just the beautiful photographs."
+          }
+        ],
+        [
+          {
+            "text": "Genuine reviews.",
+            "bold": true
+          },
+          {
+            "text": " Our reviews come from real travellers, and we do not hide negative ones."
+          }
+        ],
+        [
+          {
+            "text": "Careful partners.",
+            "bold": true
+          },
+          {
+            "text": " We choose hotels, drivers, guides and local partners based on reliability, service and how they handle problems, not on price alone."
+          }
+        ],
+        [
+          {
+            "text": "Real accountability.",
+            "bold": true
+          },
+          {
+            "text": " You will always know who is handling your trip and how to reach us."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "WHO WE TRAVEL WITH",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "We work with Indian travellers who want both good information and dependable help, including families looking for comfortable, well-organised holidays, couples and honeymooners seeking thoughtful experiences, pilgrims and senior travellers who need reliable logistics, and travellers exploring short and medium-haul international destinations."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "We would rather know a set of destinations deeply than cover every destination on the map superficially. We add new destinations only when our knowledge, partners and operations are ready to serve them well."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "OUR GOAL",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "We measure our success not only by bookings, but by how many travellers trust Deshaatan enough to come back for their next trip or recommend us to someone they care about."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "One day, we want people to begin their holiday planning by asking, \"What does Deshaatan recommend?\""
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "separator",
+      "space": 50
+    },
+    {
+      "type": "h2",
+      "space": 50,
+      "content": [
+        {
+          "text": "THE COMPANY BEHIND DESHAATAN",
+          "bold": true
+        }
+      ],
+      "size": 21,
+      "line": 28
+    },
+    {
+      "type": "paragraph",
+      "space": 20,
+      "content": [
+        {
+          "text": "Deshaatan is owned and operated by Aurven Travel Commerce India Private Limited, headquartered in Noida, Uttar Pradesh."
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 15,
+      "content": [
+        {
+          "text": "Address:",
+          "bold": true
+        },
+        {
+          "text": " Cabin 21, Ground Floor, H-187, Lohia Rd, H Block, Sector 63, Noida, Uttar Pradesh 201301"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Email:",
+          "bold": true
+        },
+        {
+          "text": " care@deshaatan.com"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "paragraph",
+      "space": 2,
+      "content": [
+        {
+          "text": "Phone:",
+          "bold": true
+        },
+        {
+          "text": " 07065780780"
+        }
+      ],
+      "size": 14,
+      "line": 21
+    },
+    {
+      "type": "cta",
+      "space": 30,
+      "content": [
+        {
+          "text": "Planning a trip? Talk to a Deshaatan specialist.",
+          "bold": true
+        }
+      ],
+      "size": 16,
+      "line": 24
+    }
+  ]
+}
