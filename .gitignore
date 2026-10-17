@@ -1,10 +1,9 @@
-node_modules
-.next
-out
-outputs
-work
-*.log
+node_modules/
+.pnpm-store/
+.next/
+.data/
 .DS_Store
+*.tsbuildinfo
 .env*
 !.env.example
-
+.neon

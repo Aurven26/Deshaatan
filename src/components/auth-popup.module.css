@@ -1,0 +1,64 @@
+.dialog.dialog{width:min(1030px,calc(100vw - 64px));margin-left:calc((100vw - min(1030px,100vw - 64px))/2);margin-right:0;max-width:none;max-height:none;padding:0;border:0;border-radius:24px;background:transparent;overflow:visible;box-shadow:0 24px 60px #0000004d;color:#1c2b38;font-family:var(--jakarta)}
+.dialog::backdrop{background:#0b12208c;backdrop-filter:blur(3px)}
+.close{position:absolute;right:-20px;top:-20px;width:40px;height:40px;z-index:2;border:0;padding:0;background:none;border-radius:50%;cursor:pointer}
+.close img{position:absolute;left:-12px;top:-8px;max-width:none}
+.card{display:grid;grid-template-columns:470px minmax(0,1fr);height:782.5px;border-radius:24px;overflow:hidden;max-height:calc(100dvh - 64px);background:white}
+.visual{position:relative;overflow:hidden;min-height:100%}
+.photo{position:absolute;inset:0;width:100%;height:calc(100% + .5px);object-fit:cover}
+.gradient{position:absolute;inset:0;background:linear-gradient(180deg,#080d1726 0%,#080d170d 45%,#080d17e6 100%)}
+.copy{position:absolute;bottom:35.5px;left:32px;right:32px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;color:#fff}
+.chip{padding:6px 12px;border:1px solid #ffffff4d;border-radius:999px;background:#ffffff29;font-size:11px;font-weight:700;line-height:16px;letter-spacing:1.4px;white-space:nowrap}
+.dialog .headline{font-size:36px;line-height:42px;font-weight:800;color:#fff;margin:0}
+.headline span{color:#ffb57a}
+.dialog .description{font-size:15px;line-height:23px;color:#ffffffe0;margin:0}
+.highlights{display:flex;gap:8px}
+.highlights span{padding:7px 12px;border:1px solid #ffffff47;border-radius:999px;background:#ffffff24;font-size:12px;line-height:16px;font-weight:600;white-space:nowrap}
+.panel{display:flex;flex-direction:column;gap:18px;padding:28px 44px 32px;background:#fff;min-width:0;min-height:0;height:100%;overflow-y:auto;scrollbar-width:thin;animation:auth-panel-in .18s ease-out}
+.panel>*{flex-shrink:0}
+@keyframes auth-panel-in{from{opacity:.65}to{opacity:1}}
+.tabs{display:flex;align-items:flex-start;height:46.5px;flex-shrink:0}
+.tabs button{flex:1;padding:6px 0 14px;border:0;border-bottom:1px solid #e3e3e3;color:#7a7a7a;font:500 17px/24px var(--jakarta);background:none;cursor:pointer}
+.tabs button[aria-pressed=true]{border-bottom:2.5px solid #f37002;color:#f37002;font-weight:700}
+.heading{padding-top:8px;display:flex;flex-direction:column;gap:6px}
+.dialog .heading h2{margin:0;font-size:30px;line-height:38px;font-weight:800}
+.dialog .heading p{margin:0;color:#7a7a7a;font-size:15px;line-height:22px}
+.fields{display:flex;flex-direction:column;gap:12px}
+.fields>input,.phone>input,.password,.country{background:#fafafa;border:1px solid #e3e3e3;border-radius:12px;min-height:54px}
+.fields input:not([type=checkbox]){padding:15px 16px;color:#1c2b38;font:400 15px/22px var(--jakarta);min-width:0;width:100%}
+.fields input::placeholder{color:#9a9a9a;opacity:1}
+.password{display:flex;align-items:center;padding:0 16px;gap:10px}
+.password input:not([type=checkbox]){border:0;outline:none;background:transparent;padding:15px 0;min-height:52px}
+.password button{font:600 13px/22px var(--jakarta);color:#7a7a7a;cursor:pointer;flex-shrink:0}
+.phone{display:flex;gap:10px}
+.country{position:relative;display:flex;align-items:center;flex:0 0 112px;white-space:nowrap;font-size:15px;line-height:22px;font-weight:600}
+.country select{appearance:none;width:100%;height:52px;border:0;border-radius:12px;background:transparent;padding:15px 30px 15px 14px;color:#1c2b38;font:600 15px/22px var(--jakarta);cursor:pointer}
+.country>img{position:absolute;right:12px;pointer-events:none}
+.phone>input{flex:1}
+.dialog .hint{margin:0;font-size:12px;line-height:16px;color:#7a7a7a}
+.options{display:flex;align-items:center;gap:10px;justify-content:space-between;font-size:13px;line-height:18px;color:#515151}
+.options label,.consent label{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.panel input[type=checkbox]{appearance:none;flex:0 0 18px;width:18px;height:18px;padding:0;margin:0;border:1.5px solid #c9c9c9;border-radius:5px;background:#fff;cursor:pointer}
+.panel input[type=checkbox]:checked{background:#f37002 url('/figma/auth/signup-imgCheckboxOn.svg') center no-repeat;border:0}
+.options button,.switch button,.consent a{color:#f37002;font-weight:700;cursor:pointer}
+.consent{display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:21px;color:#515151}
+.primary{padding:16px 24px;border:0;border-radius:12px;background:linear-gradient(90deg,#f37002,#e8550c);color:#fff;font:700 16px/22px var(--jakarta);filter:drop-shadow(0 8px 10px #f3700247);cursor:pointer}
+.divider{display:flex;align-items:center;gap:12px;color:#7a7a7a;font-size:13px;line-height:18px;white-space:nowrap}
+.divider span{height:1px;background:#e3e3e3;flex:1}
+.social{display:flex;gap:12px}
+.social button{flex:1;display:flex;justify-content:center;align-items:center;gap:10px;padding:13px 16px;border:1px solid #e3e3e3;border-radius:12px;font:600 14px/22px var(--jakarta);background:#fff;color:#1c2b38;cursor:pointer}
+.dialog .switch{margin:0;text-align:center;font-size:14px;line-height:22px;color:#515151}
+.benefits{padding:18px 20px;background:#fff3e9;border-radius:16px;display:flex;flex-direction:column;gap:14px}
+.benefits h3{margin:0;font-size:13px;line-height:18px;font-weight:700;text-align:center}
+.benefits>div{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
+.benefit{display:flex;align-items:center;gap:10px;min-width:0}
+.benefit img{flex-shrink:0}
+.benefit>div{display:flex;flex-direction:column;min-width:0}
+.benefit strong{font-size:13px;line-height:18px;font-weight:700}
+.benefit span{font-size:11.5px;line-height:16px;color:#7a7a7a}
+.dialog .status{margin:0;padding:12px;background:#fff3e9;border-radius:10px;font-size:13px;line-height:20px;color:#515151}
+.panel button:focus-visible,.close:focus-visible,.panel a:focus-visible,.panel input[type=checkbox]:focus-visible{outline:2px solid #f37002;outline-offset:3px}
+.panel input:not([type=checkbox]):focus,.panel input:not([type=checkbox]):focus-visible,.panel select:focus,.panel select:focus-visible{outline:none;box-shadow:none}
+.fields>input:focus,.phone>input:focus,.password:focus-within,.country:focus-within{border-color:#b8b8b8}
+@media(prefers-reduced-motion:reduce){.panel{animation:none}}
+@media(max-width:1100px){.card{grid-template-columns:42% 58%}.panel{padding-inline:28px}.copy{left:24px;right:24px}.dialog .headline{font-size:30px;line-height:38px}.highlights{flex-wrap:wrap}}
+@media(max-width:750px){.dialog.dialog{width:calc(100vw - 40px);margin-left:20px}.card{display:block}.visual{display:none}.panel{padding:24px}.dialog .heading h2{font-size:26px;line-height:34px}.fields input:not([type=checkbox]){font-size:16px}.benefits>div{grid-template-columns:1fr}.social{flex-wrap:wrap}.social button{white-space:nowrap}.close{right:-10px;top:-20px}}

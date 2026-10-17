@@ -1,0 +1,211 @@
+[
+  {
+    "id": "faq-category-1",
+    "title": "About Deshaatan",
+    "chip": "About Deshaatan",
+    "items": [
+      {
+        "question": "What is Deshaatan?",
+        "answer": "Deshaatan is a travel discovery, planning and booking platform. We help you discover destinations, understand them through practical guides, plan with realistic itineraries and cost information, and book curated holidays with the help of destination specialists, all in one place."
+      },
+      {
+        "question": "How is Deshaatan different from other travel websites or agents?",
+        "answer": "Most travel websites focus on selling, and most travel blogs focus on information. Deshaatan brings both together. We want you to understand a destination and what a trip will realistically cost before you spend money on it. When you're ready to book, you can speak with a specialist who knows the destination, not just a sales executive."
+      },
+      {
+        "question": "Who operates Deshaatan?",
+        "answer": "Deshaatan is owned and operated by Aurven Travel Commerce India Private Limited, with its registered office in Sector 63, Noida, Uttar Pradesh."
+      },
+      {
+        "question": "Do I have to book with Deshaatan to use the guides and itineraries?",
+        "answer": "No. Our destination guides, itineraries and planning information are free to use. We hope they help you plan a better trip, whether or not you book with us."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-2",
+    "title": "Planning Your Trip",
+    "chip": "Trip Planning",
+    "items": [
+      {
+        "question": "I haven't decided where to go yet. Can Deshaatan help?",
+        "answer": "Yes, that's exactly where we like to start. Tell us who's travelling, when, for how long, your departure city and your approximate budget, and our specialists can suggest destinations that suit you and explain the differences between them."
+      },
+      {
+        "question": "What is a Deshaatan Destination Specialist?",
+        "answer": "A specialist is a Deshaatan team member who focuses on particular destinations or types of travel, such as family holidays, honeymoons, pilgrimages or international trips. They help you choose the right destination, plan your itinerary, select hotels and customise the trip."
+      },
+      {
+        "question": "Are the costs shown in your guides and itineraries the final price?",
+        "answer": "No. Costs in our guides, itineraries and planning tools are estimates to help you plan. Actual prices depend on your travel dates, hotel category, group size, season and availability. Your final price is the one shown in your confirmed quotation."
+      },
+      {
+        "question": "Can I use the AI trip planner to book a trip?",
+        "answer": "Our AI-assisted planning tools, where available, give you suggestions and estimates to help you plan. They do not create a booking or a confirmed price. If you like a plan, a Deshaatan specialist can review it, check availability and prepare a proper quotation for you."
+      },
+      {
+        "question": "How far in advance should I plan?",
+        "answer": "For most domestic holidays, we recommend planning at least [4–6] weeks ahead, and [2–3] months ahead for international trips, peak seasons, long weekends and festivals, when hotels fill up quickly and prices rise. Last-minute trips are often possible, but you may have fewer choices."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-3",
+    "title": "Packages and Customisation",
+    "chip": "Packages",
+    "items": [
+      {
+        "question": "What do Deshaatan packages usually include?",
+        "answer": "It depends on the package. Most include accommodation, transfers or transport, sightseeing and selected meals or experiences. Every quotation clearly lists what is included and what is not, so please read the inclusions and exclusions before you pay."
+      },
+      {
+        "question": "Can I customise a package?",
+        "answer": "Yes. You can change hotels, add or remove days, change the travel sequence, add activities or adjust the itinerary to your pace. Your specialist will share the revised itinerary and price before anything is confirmed."
+      },
+      {
+        "question": "What is usually not included in a package?",
+        "answer": "Unless your quotation says otherwise, things like flights or trains, entry tickets, personal expenses, tips, travel insurance, and charges payable directly at hotels or destinations are not included. Anything not listed as included in your confirmed quotation should be treated as excluded."
+      },
+      {
+        "question": "Will I know the exact hotel before booking?",
+        "answer": "Yes. Your quotation will name the hotels proposed for your stay. In rare cases, if a confirmed hotel becomes unavailable, we will try to arrange a comparable alternative and inform you."
+      },
+      {
+        "question": "Will I get a specific car model?",
+        "answer": "Vehicles are usually confirmed by category (for example, sedan, SUV or tempo traveller) rather than a specific model or registration number. Your quotation will mention the vehicle category."
+      },
+      {
+        "question": "Do you arrange trips for senior citizens and people with special requirements?",
+        "answer": "Yes. Please tell us about any mobility needs, medical conditions, dietary requirements or accessibility needs before booking, so we can recommend suitable hotels, itineraries and transport."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-4",
+    "title": "Prices and Payments",
+    "chip": "Prices & Payments",
+    "items": [
+      {
+        "question": "Are there any hidden charges?",
+        "answer": "No. Before you pay, your quotation or checkout page will show the total price, what it includes, what it excludes, and any charges you may need to pay directly at the destination. We will not add undisclosed mandatory charges later."
+      },
+      {
+        "question": "Is GST included in the price?",
+        "answer": "Your quotation will clearly state whether the price includes applicable GST and other taxes."
+      },
+      {
+        "question": "Why did the price change between my enquiry and my booking?",
+        "answer": "Hotel tariffs, transport charges and other supplier rates can change until a booking is confirmed. If the price changes before you pay, we will share the revised quotation with you first. Once your booking is confirmed, the confirmed price applies."
+      },
+      {
+        "question": "How do I pay?",
+        "answer": "Available payment options will be shown in your quotation or at checkout. Payments are processed through secure third-party payment gateways or banks. [Add your actual payment options here, for example UPI, debit/credit cards, net banking or bank transfer.]"
+      },
+      {
+        "question": "Do I need to pay the full amount upfront?",
+        "answer": "It depends on the booking. Some trips require full payment in advance, while others allow payment in instalments. Your quotation will show the payment schedule."
+      },
+      {
+        "question": "When is my booking confirmed?",
+        "answer": "Your booking is confirmed only after the required payment has been received and we have sent you a Booking Confirmation."
+      },
+      {
+        "question": "Is my payment information safe?",
+        "answer": "Card and banking details are processed directly by our payment partners. Deshaatan does not store your complete card credentials. Please never share your card number, CVV, OTP or banking passwords with anyone over phone, chat or email, including someone claiming to be from Deshaatan."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-5",
+    "title": "Cancellations, Changes and Refunds",
+    "chip": "Cancellations & Refunds",
+    "items": [
+      {
+        "question": "Can I cancel my booking?",
+        "answer": "Yes. Cancellation charges depend on the cancellation terms shown in your quotation or Booking Confirmation, and on how close to your travel date you cancel. You can read the full details in our Refund and Cancellation Policy."
+      },
+      {
+        "question": "How do I cancel?",
+        "answer": "Write to care@deshaatan.com from the email address used for the booking, or contact your specialist in writing, with your Booking ID and lead traveller's name. We will share a written breakdown of cancellation charges and your refundable amount."
+      },
+      {
+        "question": "Can I change my travel dates instead of cancelling?",
+        "answer": "Usually yes, subject to availability and supplier rules. A date change often costs less than a full cancellation. Any additional charges will be shared with you before the change is confirmed."
+      },
+      {
+        "question": "Are any parts of my booking non-refundable?",
+        "answer": "Some components, such as flight or train tickets, non-refundable hotel rates, peak-season or festive bookings, permits and entry tickets, may not be refundable. These will be identified in your quotation before you pay."
+      },
+      {
+        "question": "How long does a refund take?",
+        "answer": "Refunds are processed according to the timeline stated in your Booking Confirmation or cancellation terms. If a refund depends on a hotel or other supplier, we will initiate it once we receive the amount and keep you informed if there's a delay. After we initiate a refund, your bank or payment provider may take a few additional working days to credit it."
+      },
+      {
+        "question": "Where will I receive my refund?",
+        "answer": "Refunds are made to the original payment method used for the booking."
+      },
+      {
+        "question": "What happens if Deshaatan or a hotel cancels my trip?",
+        "answer": "We will inform you as soon as possible and offer you a comparable alternative, new dates, or a refund for the affected service."
+      },
+      {
+        "question": "What happens if my trip is affected by bad weather, landslides or government restrictions?",
+        "answer": "We will work with our travel partners to help you reschedule, find alternatives, or recover as much of your money as possible. Refunds in such cases depend on what suppliers return, and we will share a clear breakdown with you."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-6",
+    "title": "Before and During Your Trip",
+    "chip": "During Your Trip",
+    "items": [
+      {
+        "question": "What documents do I need to carry?",
+        "answer": "Carry valid government-issued photo ID for all travellers, and for international trips, a valid passport and any required visa. Some destinations also require permits. Your specialist will tell you about any special requirements for your destination."
+      },
+      {
+        "question": "Does Deshaatan arrange visas or permits?",
+        "answer": "Where included in your booking, we can assist with permit or visa processes. Final approval always rests with the relevant government authority."
+      },
+      {
+        "question": "Should I buy travel insurance?",
+        "answer": "We strongly recommend it. Good travel insurance can protect you against trip cancellation, medical emergencies, lost baggage and delays. Insurance is not included in our packages unless stated in your quotation."
+      },
+      {
+        "question": "Who do I contact if something goes wrong during my trip?",
+        "answer": "Your Booking Confirmation will include a contact number for help during your trip. Please tell us as soon as an issue comes up, so we can try to fix it while you are still travelling rather than after you return."
+      },
+      {
+        "question": "What if I'm not happy with a hotel or service?",
+        "answer": "Contact us immediately during the trip. Many problems can be solved on the spot, such as a room change or a vehicle replacement. If you still have a complaint after your trip, email us with your Booking ID, details of the issue and any photos or receipts."
+      },
+      {
+        "question": "How quickly will my complaint be handled?",
+        "answer": "We acknowledge complaints within 48 hours and aim to resolve them within one month."
+      }
+    ]
+  },
+  {
+    "id": "faq-category-7",
+    "title": "Reviews and Your Data",
+    "chip": "Reviews & Privacy",
+    "items": [
+      {
+        "question": "Are the reviews on Deshaatan genuine?",
+        "answer": "Yes. Reviews come from real travellers. We do not publish fake reviews, we do not remove reviews just because they are negative, and any review given in exchange for a benefit will be clearly marked."
+      },
+      {
+        "question": "Will Deshaatan share my enquiry with other travel agents?",
+        "answer": "No. We do not sell, rent or pass on your enquiry to other agents or companies for leads. Your details are shared only with the hotels, transport providers and other partners needed to deliver the trip you booked."
+      },
+      {
+        "question": "How can I update or delete my personal information?",
+        "answer": "Write to care@deshaatan.com. You can find full details in our Privacy Policy."
+      },
+      {
+        "question": "How do I stop receiving promotional messages?",
+        "answer": "Use the unsubscribe option in our emails or messages, or write to us. You will still receive essential messages about any active enquiry or booking."
+      }
+    ]
+  }
+]

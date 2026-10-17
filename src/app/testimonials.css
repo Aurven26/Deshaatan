@@ -1,0 +1,49 @@
+/* Content-driven sizing keeps longer reviews and carousel controls aligned. */
+#about .city-columns { grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+#about .city-columns > div { min-width:0; }
+#about .city-columns button { white-space:normal; text-align:left; font-size:14px; line-height:22px; }
+.testimonials {
+  height:auto;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);
+  align-items:center;
+  gap:40px;
+  padding-block:72px;
+}
+.testimonial-heading { padding:0; min-width:0; }
+.testimonial-heading h2 { white-space:normal; font-size:clamp(28px,3.4vw,44px); line-height:1.3; }
+.testimonial-card {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  min-width:0;
+  width:100%;
+  height:auto;
+  min-height:0;
+  margin:0;
+  padding:28px;
+  border:1px solid #ececec;
+  border-radius:16px;
+}
+.testimonial-card .avatar { position:static; width:64px; height:64px; border-radius:50%; object-fit:cover; }
+.testimonial-story { height:auto; }
+.testimonial-story > p { max-width:none; font-size:16px; line-height:26px; margin:0 0 24px; }
+.testimonial-story > .stars { display:block; margin-bottom:14px; }
+.testimonial-story > strong { max-width:calc(100% - 104px); font-size:18px; line-height:25px; }
+.testimonial-story > small { max-width:calc(100% - 104px); font-size:13px; line-height:20px; margin-top:4px; }
+.testimonial-controls { position:absolute; right:28px; bottom:28px; gap:12px; margin:0; }
+.testimonial-controls button,.testimonial-controls img { width:40px; height:40px; }
+@media(max-width:900px) {
+  .testimonials { grid-template-columns:minmax(0,1fr); gap:24px; padding-block:48px; }
+  .testimonial-heading > p { font-size:12px; line-height:18px; margin-bottom:10px; }
+  .testimonial-heading h2 { font-size:28px; line-height:36px; }
+  .testimonial-heading .desktop-only { display:none; }
+  .testimonial-heading .mobile-only { display:inline; }
+  .testimonial-card { padding:24px; }
+  .testimonial-controls { right:24px; bottom:24px; }
+}
+@media(max-width:400px) {
+  .testimonial-card { padding:20px; }
+  .testimonial-controls { right:20px; bottom:20px; }
+  .testimonial-story > p { font-size:15px; line-height:25px; }
+}
