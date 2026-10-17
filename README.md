@@ -1,5 +1,11 @@
 # Deshaatan
 
+Payload CMS and PostgreSQL backend setup, verification and deployment requirements are documented
+in [docs/payload-backend.md](docs/payload-backend.md). The CMS admin runs at `/admin`.
+Use npm and `package-lock.json`. PostgreSQL must be running before building or starting the app.
+The older frontend implementation notes below describe the project before the CMS integration;
+the backend guide supersedes their storage and authentication notes.
+
 Next.js App Router, React, TypeScript, and responsive CSS implementation of the supplied Deshaatan Figma homepage (node 2061:2781).
 
 ## Run

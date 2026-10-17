@@ -1,5 +1,9 @@
 // Editorial copy intentionally mirrors the supplied Figma frames, including
 // their placeholder destinations. Replace here once the final tour is approved.
+export const goldenTriangleFeaturedReview = {
+  name: "Paul G.", date: "2024.12.15", rating: 5,
+  text: "The country is really beatiful, with wonderful beaches, mountains to hike, tea plantations and forest with wild fauna.",
+};
 export const goldenTriangle = {
   slug: "golden-triangle-12-days",
   title: "Discover Golden Triangle Beauty - Small Group Tour 12 Days",
@@ -31,4 +35,25 @@ export const goldenTriangle = {
     {name: "Kim Yeon*", date: "2024.11.11", rating: 4, text: "Japanese local shop\nThe owner is nice and nice\nKorean manual available\nThirty minutes to go, thirty minutes to come\nSnorkeling seems to last about 40 minutes.\nRoughly 2 hours in total!\nTurtles are really pretty...\nBut the shower/toilet is a bit too old-fashioned...\nOne point minus here"},
   ],
 };
-export type Tour = typeof goldenTriangle;
+export type Tour = {
+  sectionVisibility?:Record<string,boolean|null|undefined>;
+  policies?: {title: string; content?: string | null}[];
+  startEndCity?: string;
+  startCity?: string;
+  endCity?: string;
+  linkSections?: {title: string; links: {label: string; href?: string | null}[]}[];
+  duration?: number;
+  photos?: string[];
+  slug: string;
+  title: string;
+  price: string;
+  overview: string;
+  highlights: string[];
+  days: {day: number; title: string; mobileTitle?: string; description?: string; desktopOnly?: boolean}[];
+  inclusions: string[];
+  mobileInclusions: string[];
+  exclusions: string[];
+  mobileExclusions: string[];
+  faqs: {question: string; answer?: string}[];
+  reviews: {name: string; date: string; rating: number; text: string}[];
+};

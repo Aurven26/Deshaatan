@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type CSSProperties } from "react";
-import { guides } from "@/data/travel-catalog";
-import { tourPackages } from "@/data/tour-packages";
+import {useCMSContent} from './cms-content';
 import styles from "./search-popup.module.css";
 
 const destinations = [
@@ -16,25 +15,27 @@ const resultGroups: { label: string; type: ResultType }[] = [
   {label:"ITINERARIES",type:"Itinerary"},
   {label:"GUIDES",type:"Guide"},
 ];
-const resultCatalog: Result[] = [
+function buildCatalog(tourPackages:import('@/data/tour-packages').TourPackage[],guides:import('@/cms/content').WebsiteContent['guideDetails']):Result[]{return [
   ...tourPackages.map(trip => ({
     title:trip.title,
     subtitle:`${trip.days} days & ${trip.days - 1} nights · ${trip.destination}`,
     type:"Itinerary" as const,
     destination:trip.destination,
-    image:`/figma/packages/${trip.image}`,
+    image:trip.image.startsWith('/') || trip.image.startsWith('http')?trip.image:`/figma/packages/${trip.image}`,
     href:trip.href,
   })),
-  ...guides.map((name,index)=>({
-    title:name+" travel guide",
+  ...guides.map(guide=>({
+    title:guide.title+" travel guide",
     subtitle:"Deshaatan Guide",
     type:"Guide" as const,
-    destination:name,
-    image:`/figma/imgImageMunnar${index || ""}.png`,
+    destination:guide.title,
+    image:guide.image || undefined,
   })),
-];
+];}
 
 export default function SearchPopup({ onClose, onEnquiry, onGuide }: {onClose:()=>void;onEnquiry:(title:string)=>void;onGuide:(title:string)=>void}) {
+  const {tourPackages,guides,guideDetails}=useCMSContent();
+  const resultCatalog=buildCatalog(tourPackages,guideDetails);
   const dialog = useRef<HTMLDialogElement>(null);
   const input = useRef<HTMLInputElement>(null);
   const [query,setQuery] = useState("");

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import s from "./write-review-popup.module.css";
+import {MAX_REVIEW_PHOTO_BYTES, MAX_REVIEW_PHOTOS} from '@/lib/upload-limits';
 
 const asset = (name:string) => `/figma/review/${name}.svg`;
 const ratings = ["Terrible", "Poor", "Average", "Very good", "Excellent"];
@@ -35,8 +36,9 @@ export default function WriteReviewPopup({title,slug,onClose}:{title:string;slug
   function addPhotos(event:ChangeEvent<HTMLInputElement>){
     const files=Array.from(event.target.files||[]);
     event.target.value="";
-    if(photos.length+files.length>6){setError("Please add no more than 6 photos.");return;}
-    if(files.some(file=>!["image/jpeg","image/png"].includes(file.type)||file.size>5*1024*1024)){setError("Choose JPG or PNG photos, up to 5 MB each.");return;}
+    if(photos.length+files.length>MAX_REVIEW_PHOTOS){setError("Please add no more than 6 photos.");return;}
+    if(files.some(file=>!["image/jpeg","image/png"].includes(file.type)||!file.size)){setError("Choose valid JPG or PNG photos.");return;}
+    if([...photos.map(photo=>photo.file),...files].reduce((total,file)=>total+file.size,0)>MAX_REVIEW_PHOTO_BYTES){setError("Choose photos with a combined size of 3 MB or less.");return;}
     const next=[...photos,...files.map(file=>({file,url:URL.createObjectURL(file)}))];
     photoRef.current=next;setPhotos(next);setError("");
   }
@@ -58,7 +60,7 @@ export default function WriteReviewPopup({title,slug,onClose}:{title:string;slug
 <div className={s.tripDetails}><label className={s.field}>When did you travel? <em>*</em><span className={s.select}><select name="travelMonth" required value={travelMonth} onChange={event=>setTravelMonth(event.target.value)}>{months.map(month=><option key={month.value} value={month.value}>{month.label}</option>)}</select><img src={asset("chevron")} alt="" /></span></label><fieldset className={s.companions}><legend>Who did you travel with?</legend><div>{companions.map(value=><button key={value} type="button" aria-pressed={value===companion} onClick={()=>setCompanion(value)}>{value}</button>)}</div></fieldset></div>
         <label className={s.field}>Give your review a title <em>*</em><input name="title" placeholder={'e.g. "Well planned trip, great guide in Agra"'} maxLength={150} required /></label>
         <div><label className={s.field}>Your review <em>*</em><textarea name="review" placeholder="Tell other travellers what you loved and what could be better: hotels, drivers, guides, food, pacing…" minLength={50} maxLength={1000} required value={review} onChange={event=>setReview(event.target.value)} /></label><div className={s.helper}><span>Minimum 50 characters</span><span>{review.length} / 1000</span></div></div>
-        <div className={s.photos}><div><strong>Add photos</strong><span>Optional · up to 6 · JPG or PNG</span></div><div className={s.photoRow}><input ref={upload} type="file" accept="image/jpeg,image/png" multiple aria-label="Upload review photos" onChange={addPhotos} hidden /><button className={s.upload} type="button" disabled={photos.length>=6} onClick={()=>upload.current?.click()}><img src={asset("plus")} alt="" />Upload</button>{photos.map((photo,i)=><div className={s.photo} key={photo.url}><img src={photo.url} alt={`Your trip photo ${i+1}`} /><button type="button" aria-label={`Remove photo ${i+1}`} onClick={()=>removePhoto(i)}><img src={asset("remove")} alt="" /></button></div>)}</div></div>
+        <div className={s.photos}><div><strong>Add photos</strong><span>Optional · up to 6 · JPG or PNG · 3 MB total</span></div><div className={s.photoRow}><input ref={upload} type="file" accept="image/jpeg,image/png" multiple aria-label="Upload review photos" onChange={addPhotos} hidden /><button className={s.upload} type="button" disabled={photos.length>=6} onClick={()=>upload.current?.click()}><img src={asset("plus")} alt="" />Upload</button>{photos.map((photo,i)=><div className={s.photo} key={photo.url}><img src={photo.url} alt={`Your trip photo ${i+1}`} /><button type="button" aria-label={`Remove photo ${i+1}`} onClick={()=>removePhoto(i)}><img src={asset("remove")} alt="" /></button></div>)}</div></div>
         <div className={s.details}><label className={s.field}>Your name <em>*</em><input name="name" autoComplete="name" placeholder="Name shown on your review" maxLength={100} required /></label><div><label className={s.field}>Booking ID<input name="bookingId" placeholder="e.g. DSH-24816" maxLength={50} /></label><p className={s.verified}><img src={asset("verified")} alt="" />Add it to get a &quot;Verified traveller&quot; badge</p></div></div>
         <label className={s.consent}><input type="checkbox" name="consent" required /><span className={s.checkbox}><img src={asset("tick")} alt="" /></span><span>I confirm this review is about my own experience, and I have permission to share any photos that show other people.</span></label>
         {error&&<p className={s.error} role="alert">{error}</p>}

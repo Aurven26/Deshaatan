@@ -29,14 +29,30 @@ export default function AuthPopup() {
   const [signup, setSignup] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState("");
+  const [pending, setPending] = useState(false);
   const [country, setCountry] = useState("IN");
   const mode = signup ? "signup" : "login";
   const asset = (name: string, extension = "svg") => `/figma/auth/${mode}-${name}.${extension}`;
   const switchMode = (next: boolean) => { setSignup(next); setShowPassword(false); setMessage(""); };
   const unavailable = (feature: string) => setMessage(`${feature} is not available yet. Please contact care@deshaatan.com for help with your trip.`);
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function requestPasswordReset(email:string){
+    if(!email.includes('@')){setMessage('Enter your email address in the login field first.');return;}
+    try{const response=await fetch('/api/account/forgot-password',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email})});const result=await response.json();setMessage(result.message || result.error || 'Please try again.');}
+    catch{setMessage('We couldn’t request a reset. Please try again.');}
+  }
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    unavailable(signup ? "Account registration" : "Account login");
+    if(pending)return;
+    setPending(true);
+    const data=new FormData(event.currentTarget);
+    setMessage(signup?'Creating your account…':'Logging in…');
+    try{
+      const response=await fetch(`/api/account/${signup?'register':'login'}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(data))});
+      const result=await response.json();
+      if(!response.ok)throw new Error(result.error || 'Please try again.');
+      setMessage(`You’re logged in as ${result.user.name}.`);
+    }catch(error){setMessage(error instanceof Error?error.message:'Please try again.');}
+    finally{setPending(false);}
   }
 
   return <div className={styles.card}>
@@ -63,10 +79,10 @@ export default function AuthPopup() {
           <div className={styles.phone}><span className={styles.country}><select aria-label="Country calling code" name="country" value={country} onChange={event => setCountry(event.target.value)}>{countryCodes.map(([iso, code, name]) => <option key={iso} value={iso} label={`${iso} +${code}`}>{name} (+{code})</option>)}</select><img src={asset("imgChevron")} alt="" /><input type="hidden" name="callingCode" value={`+${countryCodes.find(([iso]) => iso === country)?.[1]}`} /></span><input aria-label="Mobile number" name="phone" type="tel" autoComplete="tel-national" inputMode="numeric" pattern={country === "IN" ? "[0-9]{10}" : "[0-9]{4,14}"} title={country === "IN" ? "Enter a 10-digit Indian mobile number" : "Enter your mobile number without the country code"} placeholder="Mobile number" required /></div>
         </> : <input aria-label="Email or mobile number" name="identifier" autoComplete="username" placeholder="Email or mobile number" required />}
         <div className={styles.password}><input aria-label={signup ? "Create password" : "Password"} name="password" type={showPassword ? "text" : "password"} autoComplete={signup ? "new-password" : "current-password"} placeholder={signup ? "Create password" : "Password"} required minLength={signup ? 8 : undefined} pattern={signup ? "(?=.*[0-9]).{8,}" : undefined} aria-describedby={signup ? "auth-password-hint" : undefined} /><button type="button" aria-label={showPassword ? "Hide password" : "Show password"} aria-pressed={showPassword} onClick={() => setShowPassword(!showPassword)}>{showPassword ? "Hide" : "Show"}</button></div>
-        {signup ? <p className={styles.hint} id="auth-password-hint">Use at least 8 characters, including a number.</p> : <div className={styles.options}><label><input type="checkbox" name="remember" /><span>Remember me</span></label><button type="button" onClick={() => unavailable("Password recovery")}>Forgot password?</button></div>}
+        {signup ? <p className={styles.hint} id="auth-password-hint">Use at least 8 characters, including a number.</p> : <div className={styles.options}><label><input type="checkbox" name="remember" /><span>Remember me</span></label><button type="button" onClick={event=>{const input=event.currentTarget.form?.elements.namedItem('identifier');requestPasswordReset(input instanceof HTMLInputElement?input.value:'');}}>Forgot password?</button></div>}
       </div>
       {signup && <div className={styles.consent}><label><input className={styles.agreement} type="checkbox" name="terms" defaultChecked required /><span>I agree to the <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span></label><label><input type="checkbox" name="offers" /><span>Send me travel guides and offers on email and WhatsApp (optional)</span></label></div>}
-      <button className={styles.primary} type="submit">{signup ? "Create account" : "Log in"}</button>
+      <button className={styles.primary} type="submit" disabled={pending} aria-busy={pending}>{pending ? 'Please wait…' : signup ? "Create account" : "Log in"}</button>
       <div className={styles.divider}><span />{signup ? "or sign up with" : "or continue with"}<span /></div>
       <div className={styles.social}><button type="button" onClick={() => unavailable("Google sign-in")}><img src={asset("imgIcon")} alt="" />{signup ? "Continue with Google" : "Google"}</button>{!signup && <button type="button" onClick={() => unavailable("OTP login")}>Log in with OTP</button>}</div>
       <p className={styles.switch}>{signup ? "Already have an account? " : "New to Deshaatan? "}<button type="button" onClick={() => switchMode(!signup)}>{signup ? "Log in" : "Create an account"}</button></p>

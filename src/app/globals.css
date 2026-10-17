@@ -37,3 +37,5 @@ footer{background:#f1f2f3;color:#9a9ea6}.footer-main{max-width:1378px;margin:aut
 @media(max-width:600px){#main .section-heading:has(.home-carousel-arrows){flex-wrap:wrap;align-items:center;gap:14px 8px}#main .section-heading .duration-tabs{order:3;flex-basis:100%;width:100%;margin-top:0}}
 /* Travel guide visibility toggle: remove this rule to show the home travel guide section again. Its component code stays intact. */
 #main > #guides{display:none}
+/* Shared popup headings sit close to their introductory copy. */
+.modal > h2{margin-bottom:8px}

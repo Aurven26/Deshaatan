@@ -1,6 +1,11 @@
 /* Figma: desktop 2061:2781, mobile 2094:2162, featured states 2102:10785.
    The mobile reference includes 90px of phone/browser chrome, excluded here. */
 .mobile-only, .mobile-hero { display: none; }
+.brand > img { width:108px; height:46px; object-fit:contain; }
+.site-footer .footer-company > a picture img { width:108px; height:46px; object-fit:contain; }
+.city-columns a { font-size:inherit; line-height:inherit; text-align:left; }
+.guide-image > img { width:100%; height:100%; object-fit:cover; border-radius:inherit; }
+@media(max-width:600px) { .brand > img { width:81px; height:35px; } .testimonial-story > .stars { width:auto; height:auto; } }
 .guide-card { border-radius: 12px; box-shadow: 0 4px 12px #141c2914; }
 .testimonial-card > p { line-height: 24px; max-width: 470px; }
 .itinerary .form-actions { grid-template-columns: 1fr 268px; gap: 16px; }
@@ -63,6 +68,24 @@ footer { color: #1b1c1f; }
   .airport-transfer p { font-size: 13px; }
   .airport-transfer button { flex-basis: 105px; }
 }
+/* Keep carousel titles, controls and filters aligned as the available width changes. */
+@media (max-width: 1000px) {
+  #main .section-heading:has(.home-carousel-arrows) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    height: auto;
+    gap: 16px;
+  }
+  #main .section-heading:has(.home-carousel-arrows) :is(h1, h2) {
+    min-width: 0;
+    max-width: none;
+    white-space: normal;
+    text-align: left;
+  }
+  #main .section-heading .home-carousel-arrows { grid-column: 2; grid-row: 1; margin-left: 0; }
+  #main .section-heading .duration-tabs { grid-column: 1 / -1; grid-row: 2; width: 100%; }
+}
 @media (max-width: 600px) {
   html { scroll-padding-top: 80px; }
   .desktop-only, .icon.desktop-only, .deal-bar, .hero, .airport-transfer { display: none; }
@@ -93,17 +116,19 @@ footer { color: #1b1c1f; }
   .category { flex: 0 0 69.697px; width: 69.697px; gap: 7.205px; font-size: 11.5px; line-height: 14.409px; }
   .category-icon { width: 50.433px; height: 50.433px; border-radius: 18.012px; }
   .category-divider { display: none; }
-  .popular { width: 100%; padding: 0 0 34.84px; height: 566px; border-bottom: 10px solid #f2f5f7; }
-  .section-heading { margin-left: 22.72px; padding: 0; height: 75.221px; min-height: 0; display: flex; align-items: flex-start; flex-direction: column; flex-wrap: nowrap; gap: 12px; }
+  .popular { width: 100%; padding: 28px 0 36px; height: auto; border-bottom: 10px solid #f2f5f7; }
+  .section-heading { width: calc(100% - 40px); margin-inline: auto; padding: 0; height: auto; min-height: 0; }
+  #main .section-heading:has(.home-carousel-arrows) { gap: 16px 12px; }
   .popular .section-heading { padding-top: 0; }
   .section-heading h1, .section-heading h2 { font-size: 18px; line-height: 30px; letter-spacing: -.18px; font-weight: 700; white-space: nowrap; max-width: none; }
   .section-heading .duration-tabs { order: initial; flex-basis: auto; margin-top: 0; }
-  .duration-tabs { gap: 9px; width: calc(100vw - 22.72px); flex-shrink: 0; overflow-x: auto; scrollbar-width: none; }
+  .duration-tabs { gap: 9px; width: 100%; flex-shrink: 0; overflow-x: auto; scrollbar-width: none; }
   .duration-tabs button, .duration-tabs button:last-child { flex: 0 0 65.464px; width: 65.464px; height: 33.221px; font-size: 10.985px; line-height: 16.478px; font-weight: 800; border-width: .816px; }
   .view-all { display: none; }
   .packages-grid { display: flex; gap: 28.46px; margin-top: 23.779px; padding: 0 24.72px 8px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x mandatory; scroll-padding-left: 24.72px; }
-  .package-card { flex: 0 0 274.27px; width: 274.27px; gap: 0; scroll-snap-align: start; }
-  .package-image { aspect-ratio: 1; width: 274.27px; height: 274.27px; border-radius: 8.625px; }
+  #main :is(#destinations, #religious) .home-carousel-track { grid-auto-columns: min(320px, 92%); gap: 16px; margin-top: 24px; padding: 0 20px 12px; scroll-padding-inline: 20px; align-items: stretch; }
+  .package-card { flex: 0 0 274.27px; width: 100%; gap: 0; scroll-snap-align: start; }
+  .package-image { aspect-ratio: 1; width: 100%; height: auto; border-radius: 10px; }
   .package-image .share-button { right: 11.48px; top: 11.43px; padding: 6.474px; border-radius: 5.179px; }
   .package-image > .share-menu { top: 11.43px; right: 11.48px; }
   .package-image .share-button .icon { width: 15.536px; height: 15.536px; }
@@ -112,12 +137,12 @@ footer { color: #1b1c1f; }
   .rating { width: 47.437px; height: 21.7px; border-radius: 2.523px; font-size: 10.093px; }
   .rating small { font-size: 8.579px; }
   .trip-title { margin-top: 13.83px; min-height: 40px; font-size: 14px; line-height: 20px; }
-  .price-row { margin-top: 14.53px; height: 43.99px; gap: 0; align-items: center; flex-wrap: nowrap; }
+  .price-row { margin-top: auto; padding-top: 16px; height: auto; gap: 12px; align-items: center; flex-wrap: wrap; }
   .price del { font-size: 12.207px; line-height: 14.8px; }
   .price > div { margin-top: 3.96px; gap: 3px; }
   .price strong { font-size: 20.7px; line-height: 25.2px; }
   .price span { font-size: 8.138px; }
-  .callback { flex: 0 0 147.3px; width: 147.3px; height: 43.776px; font-size: 12.07px; border: .863px solid #ff4f00; color: #ff4f00; }
+  .callback { flex: 1 0 100%; width: 100%; height: 48px; font-size: 14px; border: 1px solid #ff4f00; color: #ff4f00; }
   .guides { width: 100%; height: 354px; padding: 24px 0 34px; }
   .guides .section-heading { height: 28px; margin-left: 23.72px; padding: 0; }
   .guides .section-heading h2 { font-size: 20px; line-height: 28px; letter-spacing: 0; }
@@ -129,20 +154,20 @@ footer { color: #1b1c1f; }
   .guide-copy p { width: 194px; font-size: 10.874px; line-height: 15.948px; margin-bottom: 9px; text-align: justify; }
   .guide-copy > span { font-size: 11px; line-height: 13.676px; gap: 4.508px; }
   .guide-copy b { font-size: 13.318px; }
-  .religious { height: 570px; padding: 0; }
-  .religious-content { width: 100%; padding-top: 26px; }
+  .religious { height: auto; padding: 0 0 32px; }
+  .religious-content { width: 100%; padding-top: 28px; }
   .religious .section-heading { gap: 12px; }
   .religious .packages-grid { margin-top: 23.029px; padding-left: 22.72px; gap: 29.83px; scroll-padding-left: 22.72px; }
-  .featured-trip { flex: 0 0 274.27px; width: 274.27px; height: 419.9px; min-height: 0; border-radius: 12px; scroll-snap-align: start; box-shadow: 0 8px 10px #1f0d292e; }
+  .featured-trip { flex: 0 0 274.27px; width: 100%; height: auto; min-height: 480px; border-radius: 12px; scroll-snap-align: start; box-shadow: 0 8px 10px #1f0d292e; }
   .featured-trip .share-button { top: 17.8px; right: 17.8px; padding: 6.436px; border-radius: 5.149px; }
   .featured-trip > .share-menu { top: 17.8px; right: 17.8px; }
   .featured-trip .share-button > img { width: 15.45px; height: 15.45px; }
-  .featured-copy { left: 20.23px; bottom: 23.58px; height: 95.348px; }
+  .featured-copy { left: 20px; right: 20px; bottom: 88px; height: auto; }
   .featured-copy strong { font-size: 23.92px; line-height: 30px; margin-bottom: 6.38px; }
   .featured-copy > span { font-size: 19.929px; line-height: 25px; }
   .featured-copy small { font-size: 9.71px; margin-top: 6px; border-radius: 6.472px; padding: 6.472px 12.945px; height: 28px; }
-  .featured-callback { left: 20.23px; bottom: 22px; width: 147px; height: 43.5px; font-size: 12.07px; }
-  .featured-trip:focus-within .featured-copy { bottom: 80px; }
+  .featured-callback { left: 20px; bottom: 24px; width: calc(100% - 40px); height: 48px; font-size: 14px; opacity: 1; pointer-events: auto; transform: none; }
+  .featured-trip:focus-within .featured-copy { bottom: 88px; }
   .testimonials { height: 382px; padding: 40px 0 48px; display: block; }
   .testimonial-heading { padding: 0; }
   .testimonial-heading > p { font: 500 9.189px/12px var(--jakarta); margin-bottom: 4.25px; }
@@ -211,7 +236,7 @@ footer { color: #1b1c1f; }
   .footer-social { padding-top: 18px; }
   .footer-social h3 { text-transform: capitalize; font-size: 14px; font-weight: 600; line-height: 21px; margin-bottom: 13px; }
   .footer-social > div { gap: 12px; }
-  .footer-social button { width: 40px; height: 40px; padding: 8px; }
+  .footer-social button,.footer-social a { display:grid; place-items:center; width:40px; height:40px; padding:8px; }
   .footer-social img { width: 24px; height: 24px; }
   .mobile-footer-bottom { margin: 0 24px; padding: 24px 0; min-height: 132px; border-top: 1px solid white; font: 400 14px/21px Helvetica,Arial,sans-serif; color: #323637; }
   .mobile-footer-bottom > p { margin-bottom: 16px; white-space: nowrap; }

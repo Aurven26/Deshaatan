@@ -1,0 +1,6 @@
+import type {Field,GlobalConfig} from 'payload';
+import {isEditor} from './access';
+import {revalidateGlobal} from './fields';
+import {sectionLabels} from './visibility-labels';
+export const itineraryVisibilityField:Field={name:'sectionVisibility',label:'Section visibility for this itinerary',type:'group',admin:{description:'Turn off a section to hide it on this itinerary. Site-wide defaults are in Website → Page Visibility.'},fields:Object.entries(sectionLabels.itinerary).map(([name,label])=>({name,label:`Show ${label}`,type:'checkbox',defaultValue:true}))};
+export const PageVisibility:GlobalConfig={slug:'section-visibility',label:'Page Visibility',admin:{group:'Website',description:'Hide sections without deleting their content. Home Page has its own section switches. Itineraries and Pages also have individual section controls.'},access:{read:()=>true,update:isEditor},hooks:{afterChange:[revalidateGlobal]},fields:[{type:'tabs',tabs:Object.entries(sectionLabels).map(([name,labels])=>({label:({shared:'Header & footer',itinerary:'All itineraries',packages:'Tour Packages',faq:'FAQ',contact:'Contact Us',pages:'Content pages'} as Record<string,string>)[name],fields:[{name,type:'group',fields:Object.entries(labels).map(([name,label])=>({name,label:`Show ${label}`,type:'checkbox',defaultValue:true}))}]}))}]};

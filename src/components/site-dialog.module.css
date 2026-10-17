@@ -1,0 +1,23 @@
+.travellers { min-width: 0; }
+.contactFieldset { min-width:0; border:0; padding:0; margin:0; }
+.fullWidth { grid-column:1 / -1; }
+.fullWidth textarea { display:block; width:100%; margin-top:9px; padding:12px 14px; background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; font:400 14px/22px var(--jakarta); color:#0f172a; resize:vertical; }
+.fileInput { padding:10px 12px !important; height:auto !important; min-height:48px; }
+.fieldHint { display:block; margin-top:7px; font-size:12px; font-weight:400; color:#64748b; }
+.formResult { margin:18px 0 0 !important; padding:12px; background:#f1f5f9; border-radius:10px; font-size:14px; }
+.contactFieldset:disabled { opacity:.65; }
+.travellers > label { display: block; font-size: 12px; font-weight: 700; line-height: 15.4px; color: #475569; }
+.travellerControl { margin-top: 9px; min-height: 48px; border: 0; background: transparent; flex-direction: column; align-items: stretch; }
+.travellerControl > button { height: 48px; min-height: 48px; border: 1px solid #cbd5e1; border-radius: 10px; background: #f8fafc; padding: 0 14px; font-size: 14px; font-weight: 400; }
+.travellerControl > button[data-empty=true] { color: #aaa; }
+.travellerControl input[type=hidden] { display: none; }
+/* Match the anchored traveller dropdown used by the other desktop forms. */
+.travellerControl > [role=dialog] { position:absolute; top:calc(100% + 8px); right:0; width:100%; max-width:100%; margin-top:0; font-weight:400; display:grid; grid-template-columns:minmax(0,1fr); gap:10px; padding:12px; }
+.travellerControl > [role=dialog] > div { margin-bottom:0; }
+.travellerControl > [role=dialog] > button { grid-column:1 / -1; }
+.travellerControl > [role=dialog][data-placement=above] { top:auto; bottom:calc(100% + 8px); }
+@media (max-width: 600px) {
+  .travellerControl > button { font-size: 16px; }
+  .travellerControl > [role=dialog] { position:relative; top:auto; right:auto; margin-top:8px; box-shadow:none; }
+  .travellerControl > [role=dialog][data-placement=above] { bottom:auto; }
+}

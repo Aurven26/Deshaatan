@@ -1,15 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import categories from "@/data/faq.json";
+import {useCMSContent} from './cms-content';
+import {sectionVisible} from '@/cms/visibility-labels';
 import styles from "./faq-page.module.css";
 
 export default function FaqPage() {
+  const {faq:categories,visibility}=useCMSContent();
+  const visible=(name:string)=>sectionVisible(visibility,"faq",name);
   const [filter, setFilter] = useState("all");
-  const [openQuestion, setOpenQuestion] = useState<string | null>(`${categories[0].id}-0`);
+  const [openQuestion, setOpenQuestion] = useState<string | null>(categories[0]?`${categories[0].id}-0`:null);
   const selectCategory = (id: string) => {
     setFilter(id);
-    setOpenQuestion(`${id === "all" ? categories[0].id : id}-0`);
+    setOpenQuestion(`${id === "all" ? categories[0]?.id || '' : id}-0`);
   };
   const shown = filter === "all" ? categories : categories.filter(category => category.id === filter);
 
@@ -22,16 +25,16 @@ export default function FaqPage() {
     <div className={styles.container}>
       <nav className={styles.breadcrumb} aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span aria-current="page">FAQs</span></nav>
       <div className={styles.hero}>
-        <span className={styles.tag}>HELP CENTRE</span>
-        <h1>Frequently asked<br /><span>questions</span></h1>
-        <p>Have a question about planning or booking a trip with Deshaatan? You&apos;ll find answers to the most common ones below. If you don&apos;t see your question here, write to us at <a href="mailto:care@deshaatan.com">care@deshaatan.com</a> or call <a href="tel:+917065780780">07065780780</a>.</p>
-        <div className={styles.filters} aria-label="FAQ categories">
+        {visible("introduction") && <span className={styles.tag}>HELP CENTRE</span>}
+        {visible("introduction") && <h1>Frequently asked<br /><span>questions</span></h1>}
+        {visible("introduction") && <p>Have a question about planning or booking a trip with Deshaatan? You&apos;ll find answers to the most common ones below. If you don&apos;t see your question here, write to us at <a href="mailto:care@deshaatan.com">care@deshaatan.com</a> or call <a href="tel:+917065780780">07065780780</a>.</p>}
+        {visible("categories") && <div className={styles.filters} aria-label="FAQ categories">
           <button type="button" aria-pressed={filter === "all"} onClick={() => selectCategory("all")}>All</button>
           {categories.map(category => <button key={category.id} type="button" aria-pressed={filter === category.id} onClick={() => selectCategory(category.id)}>{category.chip}</button>)}
-        </div>
+        </div>}
       </div>
-      <div className={styles.layout}>
-        <div className={styles.list}>
+      <div className={styles.layout} style={!visible("questions")||!visible("help")?{gridTemplateColumns:"minmax(0,1fr)"}:undefined}>
+        {visible("questions") && <div className={styles.list}>
           {shown.map(category => <section key={category.id} id={category.id} className={styles.category} aria-labelledby={`${category.id}-heading`}>
             <div className={styles.categoryHeading}><span>{String(categories.indexOf(category) + 1).padStart(2, "0")}</span><h2 id={`${category.id}-heading`}>{category.title}</h2><p>{category.items.length} questions</p></div>
             {category.items.map((item, index) => {
@@ -43,15 +46,15 @@ export default function FaqPage() {
               </article>;
             })}
           </section>)}
-        </div>
-        <aside className={styles.help} aria-labelledby="faq-help-heading">
+        </div>}
+        {visible("help") && <aside className={styles.help} aria-labelledby="faq-help-heading">
           <span className={styles.emailBadge}><img src="/figma/faq/imgGroup858.svg" alt="" /></span>
           <h2 id="faq-help-heading">Still have questions?</h2>
           <p>Can&apos;t find the answer you&apos;re looking for? Our team is happy to help you plan, book or sort out an existing trip.</p>
           <span className={styles.spacer} aria-hidden="true" />
           <a className={styles.emailButton} href="mailto:care@deshaatan.com">Email us</a>
           <a className={styles.callButton} href="tel:+917065780780">Call 07065780780</a>
-        </aside>
+        </aside>}
       </div>
     </div>
   </main>;

@@ -17,17 +17,21 @@
 @media (max-width:1000px) {
   .itinerary .itinerary-fields { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .itinerary .itinerary-fields > label,.itinerary .itinerary-fields > .planning-field { grid-column:auto; }
-  .itinerary .itinerary-fields > .travellers-field { grid-column:1 / -1; }
 }
 @media (max-width:600px) {
-  .itinerary { padding-bottom:33px; }
+  .itinerary { height:auto; padding:32px 0; }
+  .itinerary-form { height:auto; padding:20px 16px; }
   .itinerary .itinerary-fields { grid-template-columns:minmax(0,1fr); gap:16px; }
   .itinerary > .content { left:0; }
   .itinerary > .content > p { white-space:normal; }
   .itinerary .itinerary-fields input,.itinerary .itinerary-fields select { font-size:16px; }
-  .itinerary .travellers-field > label { font-size:10px; line-height:13.43px; }
-  .itinerary .home-traveller-control { margin-top:8.57px; min-height:42px; }
-  .itinerary .home-traveller-control > button { height:42px; min-height:42px; border-radius:8.72px; font-size:16px; padding-inline:12px; }
+  .itinerary .itinerary-fields > label,.itinerary .travellers-field > label { font-size:12px; line-height:18px; }
+  .itinerary .itinerary-fields input,.itinerary .itinerary-fields select { height:48px; margin-top:8px; }
+  .itinerary .home-traveller-control { margin-top:8px; min-height:48px; }
+  .itinerary .home-traveller-control > button { height:48px; min-height:48px; border-radius:8.72px; font-size:16px; padding-inline:12px; }
+  .itinerary .form-actions { gap:12px; margin-top:24px; }
+  .itinerary .primary-button,.itinerary .whatsapp-button { min-height:56px; height:auto; padding:14px 12px; font-size:16px; line-height:24px; gap:10px; }
+  .itinerary .form-promises { font-size:12px; line-height:18px; }
   .itinerary .form-promises { display:flex; flex-wrap:wrap; justify-content:center; gap:10px 16px; margin-inline:0; padding-inline:0; }
   .itinerary .form-promises span { white-space:normal; }
 }
