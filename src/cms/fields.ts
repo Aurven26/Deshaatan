@@ -1,5 +1,6 @@
 import type {Field, PayloadRequest, CollectionBeforeValidateHook, CollectionAfterChangeHook, CollectionAfterDeleteHook, GlobalAfterChangeHook} from 'payload';
 import {revalidatePath} from 'next/cache';
+import {invalidateCMSCache} from '@/lib/remote-cache';
 
 export const slug:Field={name:'slug',type:'text',required:true,unique:true,index:true,validate:(value:string|null|undefined)=>!!value && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value) || 'Use lowercase words separated by hyphens.'};
 export const slugHook:CollectionBeforeValidateHook=({data,operation})=>{
@@ -7,9 +8,11 @@ export const slugHook:CollectionBeforeValidateHook=({data,operation})=>{
   return data;
 };
 export const seo:Field={name:'seo',type:'group',fields:[{name:'title',type:'text',maxLength:70},{name:'description',type:'textarea',maxLength:170},{name:'image',type:'upload',relationTo:'media'},{name:'noIndex',type:'checkbox',defaultValue:false}]};
-function invalidate(req:PayloadRequest){
-  if(!req.context.skipRevalidation){try{revalidatePath('/','layout');}catch{req.payload.logger.info('Content saved outside a Next request; cache expires on its configured interval.');}}
+async function invalidate(req:PayloadRequest){
+  if(req.context.skipRevalidation)return;
+  try{revalidatePath('/','layout');}catch{req.payload.logger.info('Content saved outside a Next request; cached pages expire on their configured interval.');}
+  await invalidateCMSCache();
 }
-export const revalidateContent:CollectionAfterChangeHook=({doc,req})=>{invalidate(req);return doc;};
-export const revalidateDeletedContent:CollectionAfterDeleteHook=({doc,req})=>{invalidate(req);return doc;};
-export const revalidateGlobal:GlobalAfterChangeHook=({doc,req})=>{invalidate(req);return doc;};
+export const revalidateContent:CollectionAfterChangeHook=async({doc,req})=>{await invalidate(req);return doc;};
+export const revalidateDeletedContent:CollectionAfterDeleteHook=async({doc,req})=>{await invalidate(req);return doc;};
+export const revalidateGlobal:GlobalAfterChangeHook=async({doc,req})=>{await invalidate(req);return doc;};

@@ -4,10 +4,9 @@ import {buildConfig} from 'payload';
 import {postgresAdapter} from '@payloadcms/db-postgres';
 import {lexicalEditor} from '@payloadcms/richtext-lexical';
 import sharp from 'sharp';
-import {vercelBlobStorage} from '@payloadcms/storage-vercel-blob';
 import {nodemailerAdapter} from '@payloadcms/email-nodemailer';
 import {attachDatabasePool} from '@vercel/functions';
-import {privateBlobStorage} from './cms/private-blob';
+import {postgresMediaStorage} from './cms/postgres-media-storage';
 import nodemailer from 'nodemailer';
 import {Users,Media,PrivateFiles,Destinations,Categories,Itineraries,Guides,Pages,FAQs,Testimonials,Leads,Applications,Reviews} from './cms/collections';
 import {isAdmin,isEditor} from './cms/access';
@@ -31,7 +30,7 @@ export default buildConfig({
   db:postgresAdapter({pool:{connectionString,max:5,idleTimeoutMillis:5000,connectionTimeoutMillis:15000},push:!isNeon && process.env.NODE_ENV!=='production'}),
   onInit:async(payload)=>{if(process.env.VERCEL)attachDatabasePool(payload.db.pool);},
   editor:lexicalEditor(),sharp,
-  plugins:[vercelBlobStorage({enabled:!!process.env.BLOB_READ_WRITE_TOKEN,token:process.env.BLOB_READ_WRITE_TOKEN,collections:{media:true},alwaysInsertFields:true}),privateBlobStorage()],
+  plugins:[postgresMediaStorage()],
   ...(process.env.SMTP_HOST?{email:nodemailerAdapter({defaultFromAddress:process.env.SMTP_FROM || 'care@deshaatan.com',defaultFromName:'Deshaatan',transport:nodemailer.createTransport({host:process.env.SMTP_HOST,port:Number(process.env.SMTP_PORT || 587),secure:process.env.SMTP_SECURE==='true',auth:{user:process.env.SMTP_USER,pass:process.env.SMTP_PASS}})})}:{}),
   typescript:{outputFile:path.join(base,'payload-types.ts')},
   upload:{limits:{fileSize:25*1024*1024},abortOnLimit:true},

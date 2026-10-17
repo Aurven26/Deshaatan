@@ -57,7 +57,6 @@ async function handlePOST(request: Request) {
       Object.assign(details,{adults,children,travellers});
     }
   }
-  if(process.env.VERCEL && resume && !process.env.PRIVATE_BLOB_READ_WRITE_TOKEN)return Response.json({error:"Resume uploads are not configured yet. Please contact care@deshaatan.com."},{status:503});
   try {
     if(type==='application' && resume){
       const payload=await getCMS();

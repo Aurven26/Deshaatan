@@ -2,6 +2,7 @@ import {cache} from 'react';
 import type {Tour} from '@/data/golden-triangle';
 import type {Itinerary, Media} from '@/payload-types';
 import {getCMS} from './client';
+import {getCachedCMS} from '@/lib/remote-cache';
 
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);
 const strings = (value: unknown): value is string[] => Array.isArray(value) && value.every(item => typeof item === 'string');
@@ -62,13 +63,17 @@ export function tourDetail(doc: Itinerary): Tour {
 }
 
 export const getPublishedItinerary = cache(async (slug: string) => {
-  const payload = await getCMS();
-  const result = await payload.find({collection: 'itineraries', overrideAccess: false, where: {slug: {equals: slug}}, limit: 1});
-  return result.docs[0] ?? null;
+  return getCachedCMS(`itinerary:${slug}`,60,async()=>{
+    const payload = await getCMS();
+    const result = await payload.find({collection: 'itineraries', overrideAccess: false, where: {slug: {equals: slug}}, limit: 1});
+    return result.docs[0] ?? null;
+  });
 });
 
 export const getPublishedReviews = cache(async (itinerary: number): Promise<Tour['reviews']> => {
-  const payload=await getCMS();
-  const result=await payload.find({collection:'reviews',overrideAccess:false,where:{and:[{status:{equals:'published'}},{or:[{shared:{equals:true}},{itinerary:{equals:itinerary}}]}]},depth:0,limit:100,sort:['displayOrder','-createdAt']});
-  return result.docs.map(review=>({name:review.name,rating:review.rating,text:review.review,date:review.displayDate || review.createdAt.slice(0,10)}));
+  return getCachedCMS(`reviews:${itinerary}`,60,async()=>{
+    const payload=await getCMS();
+    const result=await payload.find({collection:'reviews',overrideAccess:false,where:{and:[{status:{equals:'published'}},{or:[{shared:{equals:true}},{itinerary:{equals:itinerary}}]}]},depth:0,limit:100,sort:['displayOrder','-createdAt']});
+    return result.docs.map(review=>({name:review.name,rating:review.rating,text:review.review,date:review.displayDate || review.createdAt.slice(0,10)}));
+  });
 });

@@ -2,10 +2,13 @@ import {cache} from 'react';
 import type {Metadata} from 'next';
 import {getCMS} from './client';
 import {mediaURL} from './home-defaults';
+import {getCachedCMS} from '@/lib/remote-cache';
 export const getPublishedPage=cache(async(slug:string)=>{
-  const payload=await getCMS();
-  const result=await payload.find({collection:'pages',overrideAccess:false,where:{slug:{equals:slug}},limit:1,depth:1});
-  return result.docs[0]||null;
+  return getCachedCMS(`page:${slug}`,60,async()=>{
+    const payload=await getCMS();
+    const result=await payload.find({collection:'pages',overrideAccess:false,where:{slug:{equals:slug}},limit:1,depth:1});
+    return result.docs[0]||null;
+  });
 });
 export async function pageMetadata(slug:string):Promise<Metadata>{
   const doc=await getPublishedPage(slug);

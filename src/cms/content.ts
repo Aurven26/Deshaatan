@@ -6,9 +6,10 @@ import type faq from '@/data/faq.json';
 import type {SiteSetting} from '@/payload-types';
 import {resolveHomePage,mediaURL,type HomePageContent} from './home-defaults';
 import type {SectionVisibility} from './visibility-labels';
+import {getCachedCMS} from '@/lib/remote-cache';
 
 export type WebsiteContent={visibility:SectionVisibility;homePage:HomePageContent;homeSelection:{popular:string[];religious:string[];guides:string[];testimonials:string[]};tourPackages:TourPackage[];guides:string[];guideDetails:{title:string;summary:string;image:string|null}[];faq:typeof faq;testimonials:{name:string;role:string;text:string;avatar:string;rating:number}[];settings:SiteSetting;navigation:[string,string][]};
-export const getWebsiteContent=cache(async():Promise<WebsiteContent>=>{
+async function loadWebsiteContent():Promise<WebsiteContent>{
   const payload=await getPayload({config});
   const [itineraries,guides,questions,testimonials,settings,navigation,home,visibility]=await Promise.all([
     payload.find({collection:'itineraries',overrideAccess:false,depth:1,limit:100,sort:'createdAt'}),
@@ -31,4 +32,6 @@ export const getWebsiteContent=cache(async():Promise<WebsiteContent>=>{
     guides:guides.docs.map(guide=>guide.title),guideDetails:guides.docs.map(guide=>({title:guide.title,summary:guide.summary || '',image:typeof guide.image==='object' && guide.image?.filename ? `/cms-api/media/file/${encodeURIComponent(guide.image.filename)}` : ({Kerala:'/figma/imgImageMunnar.png',Rajasthan:'/figma/imgImageMunnar1.png',Kashmir:'/figma/imgImageMunnar2.png'} as Record<string,string>)[guide.title] || null})),faq:[...categories.values()].sort((a,b)=>a.id.localeCompare(b.id)),
     testimonials:testimonials.docs.map(item=>({name:item.name,role:item.designation,text:item.text,avatar:mediaURL(item.avatar),rating:item.rating??5})),settings,navigation:(navigation.links || []).map(link=>[link.label,link.href]),
   };
-});
+}
+
+export const getWebsiteContent=cache(()=>getCachedCMS('website-content',60,loadWebsiteContent));

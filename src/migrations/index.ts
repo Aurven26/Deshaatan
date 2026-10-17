@@ -7,6 +7,7 @@ import * as migration_20261017_095925_home_page_editor from './20261017_095925_h
 import * as migration_20261017_100800_page_content_editor from './20261017_100800_page_content_editor';
 import * as migration_20261017_101723_home_favicon_banner_visibility from './20261017_101723_home_favicon_banner_visibility';
 import * as migration_20261017_113723_thumbnails_section_visibility from './20261017_113723_thumbnails_section_visibility';
+import * as migration_20261017_130000_postgres_media_storage from './20261017_130000_postgres_media_storage';
 
 export const migrations = [
   {
@@ -53,5 +54,10 @@ export const migrations = [
     up: migration_20261017_113723_thumbnails_section_visibility.up,
     down: migration_20261017_113723_thumbnails_section_visibility.down,
     name: '20261017_113723_thumbnails_section_visibility'
+  },
+  {
+    up: migration_20261017_130000_postgres_media_storage.up,
+    down: migration_20261017_130000_postgres_media_storage.down,
+    name: '20261017_130000_postgres_media_storage',
   },
 ];
